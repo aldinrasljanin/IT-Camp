@@ -1,0 +1,17 @@
+table {
+  background-color: black;
+  width: 700px;
+  /* border: 1px solid red; */
+}
+tr {
+  background-color: grey;
+}
+td {
+  background-color: lightgray;
+  color: red;
+}
+h1 {
+  text-decoration: underline;
+  /* text-align: center; */
+}
+/* font-size: 30px; */

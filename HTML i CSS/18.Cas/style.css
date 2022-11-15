@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: rgb(28, 129, 28);
+}
+.main {
+  background-color: white;
+  border: 1px solid grey;
+  height: 750px;
+}
+form {
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+.name {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+input[type="name"] {
+  /* background-color: lightgray; */
+  border: 1px solid black;
+  width: 90%;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 25px;
+}
+.e-mail {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.age {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.option {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+select {
+  border: 1px solid black;
+  width: 90%;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  height: 25px;
+}
+.recommend {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.checkbox1 {
+  margin-left: 10px;
+}
+.languages {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.comments {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+textarea {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+button {
+  width: 463px;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: rgb(48, 129, 48);
+}

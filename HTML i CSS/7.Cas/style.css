@@ -1,0 +1,29 @@
+.login {
+  background-color: lightgray;
+  padding: 20px;
+}
+input {
+  width: 100%;
+  cursor: pointer;
+}
+select {
+  width: 100%;
+  cursor: pointer;
+  height: 21px;
+}
+button {
+  background-color: green;
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  color: black;
+  transition: 0.2s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: lightgray;
+  transition: 0.2s;
+  animation: alternate;
+}

@@ -1,0 +1,91 @@
+/* * {
+  margin: 0;
+} */
+.naslov {
+  color: green;
+  padding-left: 100px;
+}
+.ispodnaslova {
+  padding-left: 100px;
+}
+hr {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.ispodhr {
+  padding-left: 100px;
+}
+.main-2 {
+  display: flex;
+}
+.kartica1 {
+  color: black;
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  margin-left: 100px;
+}
+.imghtml {
+  margin: 5px;
+  width: 240px;
+}
+
+p {
+  color: black;
+  margin-left: 5px;
+}
+a {
+  padding-bottom: 750px;
+  margin-left: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  color: blue;
+}
+.kartica2 {
+  color: black;
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  margin-left: 5px;
+}
+.imgcss {
+  margin: 5px;
+  width: 240px;
+  height: 80px;
+}
+.kartica3 {
+  color: black;
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  margin-left: 5px;
+}
+.imgphp {
+  margin: 5px;
+  width: 240px;
+  height: 80px;
+}
+.kartica4 {
+  color: black;
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  margin-left: 5px;
+}
+.imgjava {
+  margin: 5px;
+  width: 240px;
+  height: 80px;
+}
+.kartica1:hover {
+  margin-top: -10px;
+}
+.kartica2:hover {
+  margin-top: -10px;
+}
+.kartica3:hover {
+  margin-top: -10px;
+}
+.kartica4:hover {
+  margin-top: -10px;
+}

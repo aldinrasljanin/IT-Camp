@@ -1,0 +1,36 @@
+.login {
+  background-color: white;
+  border: 1px solid grey;
+  width: 700px;
+  height: 250px;
+}
+button {
+  background-color: none;
+  text-decoration: none;
+  border-radius: 10px;
+  border-style: groove;
+  padding: 10px;
+  margin: 8px;
+}
+div {
+  color: black;
+  padding: 5px;
+}
+input {
+  width: 650px;
+  height: 25px;
+  margin: 3px;
+  padding: 5px;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+h1 {
+  margin-left: 5px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

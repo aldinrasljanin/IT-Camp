@@ -1,0 +1,129 @@
+/* * */
+
+* {
+  margin: 0;
+}
+
+/* Pozadina */
+.sve {
+  background-image: url("pc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
+  display: flex;
+}
+
+/* Leva strana */
+
+.levo {
+  padding-top: 50px;
+}
+
+.text {
+  background-color: rgb(84, 84, 84);
+  opacity: 90%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  width: 500px;
+  color: white;
+  margin-left: 50px;
+  transition: 0.3s;
+}
+
+.text:hover {
+  background-color: red;
+  opacity: 100%;
+  transition: 0.3s;
+}
+
+.textp {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.naslovlevo {
+  font-size: 40px;
+}
+
+/* Desna strana */
+
+.desno {
+  width: 100%;
+  height: 750px;
+  background-color: rgb(84, 84, 84);
+  opacity: 90%;
+  margin-left: 100px;
+}
+
+.velikidiv {
+  margin-top: 100px;
+}
+
+/* Div1 Desno */
+
+.div1 {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.datumdiv1:hover {
+  background-color: red;
+  transition: 0.3s;
+  opacity: 100%;
+}
+
+.datumdiv1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 150px;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  opacity: 100%;
+}
+
+.text1 {
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 145px;
+  width: 500px;
+}
+
+.dugmediv1 {
+  background-color: transparent;
+  border: 1px solid purple;
+  font-size: 20px;
+  color: purple;
+  padding: 10px;
+  margin-top: 5px;
+  transition: 0.3s;
+}
+
+.dugmediv1:hover {
+  background-color: red;
+  transition: 0.3s;
+  color: white;
+  border: 1px solid red;
+}
+
+/* Div2 Desno */
+
+.div2 {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+/* Div3 Desno */
+
+.div3 {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 25px;
+}

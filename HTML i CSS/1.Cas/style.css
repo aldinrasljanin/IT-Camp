@@ -1,0 +1,21 @@
+img {
+  width: 300px;
+  border-radius: 30px;
+  float: left;
+  filter: blur(0.5px);
+}
+h1 {
+  color: blue;
+}
+h2 {
+  color: red;
+}
+h3 {
+  color: green;
+}
+p {
+  color: yellow;
+}
+a {
+  color: black;
+}

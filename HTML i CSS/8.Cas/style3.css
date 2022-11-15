@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+}
+.navbar {
+  display: flex;
+  padding: 10px;
+  padding-top: 10px;
+}
+header {
+  height: 50px;
+  background-color: rgb(29, 28, 28);
+}
+div {
+  color: white;
+}
+p[class="div1"],
+p[class="div2"],
+p[class="div3"],
+p[class="div4"] {
+  margin-right: 5px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+img {
+  padding-top: 40px;
+  padding-left: 5px;
+  border-radius: 10px;
+  float: left;
+}
+p[class="text1"] {
+  padding-top: 40px;
+}
+p[class="text2"] {
+  padding-top: 20px;
+}
+div[class="scrol"] {
+  color: black;
+  background-color: rgb(230, 159, 28);
+  width: 150px;
+  height: 150px;
+  overflow: scroll;
+  margin-top: 40px;
+  margin-left: 20px;
+}

@@ -1,0 +1,42 @@
+/* .div-1 {
+  background-color: red;
+  display: block;
+}
+.span-1 {
+  background-color: aqua;
+  display: block;
+}
+.div-2 {
+  background-color: greenyellow;
+}
+.span-2 {
+  background-color: blue;
+}
+img {
+  width: 150px;
+} */
+/* drugi deo */
+.flex-container {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+}
+.div-1 {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  border: 3px solid black;
+}
+.div-2 {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  border: 3px solid black;
+}
+.div-3 {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  border: 3px solid black;
+}

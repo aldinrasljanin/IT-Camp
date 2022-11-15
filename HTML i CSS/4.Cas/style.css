@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+}
+.box-one {
+  background-color: red;
+  margin: 15px;
+  padding: 15px;
+}
+.box-two {
+  background-color: aquamarine;
+  margin: 15px;
+  padding: 15px;
+}
+button {
+  background-color: red;
+  border-radius: 15px;
+  text-align: center;
+  margin: 20px;
+  padding: 15px;
+}
+button a {
+  background-color: aquamarine;
+  border: 2px solid black;
+  color: black;
+  border-radius: 20px;
+  padding: 10px;
+  text-decoration: none;
+  transition: 2s;
+  animation: alternate-reverse;
+}
+button a:hover {
+  background-color: grey;
+  transition: 0.3s;
+}

@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+  h1 {
+    color: blue;
+    text-align: center;
+  }
+  h2 {
+    color: red;
+    text-align: center;
+  }
+  h3 {
+    color: cyan;
+    text-align: center;
+  }
+  img {
+    box-shadow: 0 0 20px red;
+    max-width: 600px;
+    display: table-column;
+  }
+}

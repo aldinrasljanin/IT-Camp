@@ -1,0 +1,9 @@
+table,
+th,
+tr,
+td {
+  text-align: center;
+  border: 1px solid grey;
+  width: 650px;
+  height: 35px;
+}

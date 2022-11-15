@@ -1,0 +1,18 @@
+button {
+  background-color: rgb(22, 160, 52);
+  border-radius: 10px;
+  border-color: rgb(22, 160, 52);
+  border-style: groove;
+  padding: 10px;
+  margin: 8px;
+}
+div {
+  color: rgb(25, 135, 25);
+  padding: 5px;
+}
+input {
+  width: 650px;
+  height: 25px;
+  margin: 3px;
+  padding: 5px;
+}

@@ -1,0 +1,23 @@
+li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+}
+.menu {
+  margin-left: 115px;
+  font-family: Arial;
+}
+.page {
+  font-family: Helvetica;
+  margin-left: 160px;
+}
+p {
+  margin-left: 31px;
+}
+h2 {
+  margin-left: 50px;
+  text-align: center;
+}
+header {
+  padding-top: 100px;
+}

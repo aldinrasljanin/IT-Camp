@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+}
+header {
+  height: 100px;
+  /* background-color: #1eaf92; */
+  display: flex;
+  justify-content: flex-start;
+}
+.navbar {
+  display: flex;
+}
+.div1 {
+  margin-left: 20px;
+  padding-top: 40px;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.div2 {
+  margin-left: 10px;
+  padding-top: 40px;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.div3 {
+  margin-left: 10px;
+  padding-top: 40px;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.div4 {
+  margin-left: 10px;
+  padding-top: 40px;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.search:hover {
+  max-width: 250px;
+}
+.search {
+  margin-left: 690px;
+  margin-top: 30px;
+  height: 40px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: url("pc.jpg");
+  background-position: bottom;
+  color: white;
+  /* background-color: rgb(55, 54, 54); */
+}
+a {
+  text-decoration: none;
+  /* color: rgb(55, 54, 54); */
+  color: black;
+}
+a:hover {
+  font-size: 20px;
+  box-shadow: 0 0 30px 0 black;
+}
+body {
+  background-color: rgb(55, 54, 54);
+  background-image: url("pc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p {
+  font-size: larger;
+  padding-top: 40px;
+  margin-left: 10px;
+}
+.icon {
+  margin-left: 10px;
+  padding-top: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.title-hd {
+  color: black;
+}
+.about {
+  color: rgb(55, 54, 54);
+  padding-top: 50px;
+}
+.box-1 {
+  color: white;
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  font-size: 10em;
+  box-shadow: 0px 0px 100px 0px #1eaf92;
+  color: black;
+  font-family: sans-serif;
+}

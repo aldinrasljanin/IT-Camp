@@ -1,0 +1,34 @@
+.box-1 {
+  border: 1px solid;
+  height: 200px;
+  width: 200px;
+  background-color: skyblue;
+  position: absolute;
+  bottom: 100px;
+}
+.box-4 {
+  border: 1px solid;
+  height: 200px;
+  width: 200px;
+  background-color: skyblue;
+  position: sticky;
+  bottom: 100px;
+}
+.box-2 {
+  border: 1px solid;
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+  position: sticky;
+  top: 200px;
+  left: 100px;
+}
+.box-3 {
+  border: 1px solid;
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+  position: sticky;
+  top: 100px;
+  left: 100px;
+}
