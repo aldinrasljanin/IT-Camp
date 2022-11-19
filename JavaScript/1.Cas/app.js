@@ -13,6 +13,7 @@ console.log(5 + 5);
 // 4. Undefined -> javlja da vrednost nije definisana.
 // 5. Null      -> javlja da vrednost ne postoji.
 // 6. Symbol    -> zastita podataka
+// 7. Bigint    -> za vece skladistenje brojeva
 
 var tekst = "Pozdrav";
 var nesto = 5;
