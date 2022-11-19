@@ -15,6 +15,7 @@ console.log(5 + 5);
 // 6. Symbol    -> zastita podataka
 // 7. Bigint    -> za vece skladistenje brojeva
 
+// Vezba
 var tekst = "Pozdrav";
 var nesto = 5;
 console.log(tekst);
