@@ -6,7 +6,7 @@ console.log("pozdrav iz konzole");
 console.log(5 + 5);
 
 // Tipovi podataka
-// PROSTI TIPOVI PODATAKA
+// PROSTI TIPOVI PODATAKA su osnovni tipovi podataka koji nam omogucavaju da oznacimo jednu vrednost.
 // 1. String    -> predstavlja neki tekst.
 // 2. Number    -> predstavlja brojevnu vrednost odnosno omogucava da obavimo matematicke operacije.
 // 3. Boolean   -> predstavlja neku logicku vrednost.
