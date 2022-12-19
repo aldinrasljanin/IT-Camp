@@ -49,5 +49,10 @@ const retailCompany = companies.filter(function (company) {
 
 console.log(retailCompany);
 //map
+//Map pravi novi niz na osnovu zadatog niza
+const companiesNames = companies.map(function (company) {
+  return company.name;
+});
+console.log(companiesNames);
 //sort
 //reduce
