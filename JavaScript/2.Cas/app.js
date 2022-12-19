@@ -36,7 +36,7 @@ cars2[3] = "Golf";
 console.log(cars2);
 
 // TIPOVI PODATAKA
-// SLOZENI TIPOVI PODATAKA
+// SLOZENI TIPOVI PODATAKA nam omogucavaju da smestimo vise vrednosti u jednu promenljivu.
 // Objekat
 // Niz
 // Funkcija
