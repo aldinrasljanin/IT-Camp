@@ -54,5 +54,23 @@ const companiesNames = companies.map(function (company) {
   return company.name;
 });
 console.log(companiesNames);
+
 //sort
+//Sort je funkcija koja sortira niz
+const sortCompanies = companies.sort(function (a, b) {
+  if (a.start > b.start) {
+    return 1;
+  } else {
+    return -1;
+  }
+});
+console.log(sortCompanies);
+
 //reduce
+
+//Reduce kombinuje sve elemente u nizu
+const ageSum = ages.reduce(function (total, age) {
+  return total + age;
+});
+
+console.log(ageSum);
