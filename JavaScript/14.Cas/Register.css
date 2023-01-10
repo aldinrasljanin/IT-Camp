@@ -22,7 +22,7 @@ input[type="password"] {
   border-radius: 4px;
 }
 
-input[type="submit"] {
+button {
   width: 100%;
   background-color: #4caf50;
   color: white;
@@ -35,4 +35,8 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #45a049;
+}
+
+.error {
+  color: red;
 }
