@@ -1,6 +1,6 @@
 form {
   width: 50%;
-  height: 50px;
+  height: 100%;
   margin: 0 auto;
   text-align: left;
 }
@@ -39,4 +39,20 @@ input[type="submit"]:hover {
 
 .error {
   color: red;
+}
+body {
+  background: linear-gradient(to right, #0f2027, rgb(22, 181, 181), #2c5364);
+  font-family: "Poppins", sans-serif;
+}
+#registration-form {
+  width: 35%;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: whitesmoke;
+}
+h1 {
+  text-align: center;
 }
