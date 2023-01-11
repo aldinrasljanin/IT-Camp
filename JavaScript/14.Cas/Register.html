@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -61,3 +62,45 @@
     <script src="Register.js"></script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Register.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="registration-form" onsubmit="return validate(); ">
+      <label for="username">Name:</label>
+      <input type="text" id="name" name="name" />
+      <div id="name-error" class="error">Name field is empty</div>
+      <br />
+      <label for="username">Surname:</label>
+      <input type="text" id="surname" name="surname" />
+      <div id="surname-error" class="error">Surname field is empty</div>
+      <br />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+      <div id="email-error" class="error">Email is not valid</div>
+      <br />
+      <label for="email">Confirm Email:</label>
+      <input type="email" id="confirm-email" name="email" />
+      <div id="cemail-error" class="error">Emails are not matching</div>
+      <br />
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" />
+      <div id="password-error" class="error">Password is too short</div>
+      <br />
+      <label for="password-confirm">Confirm Password:</label>
+      <input type="password" id="confirm-password" name="password-confirm" />
+      <div id="cpassword-error" class="error">Passwords are not matching</div>
+      <br />
+      <button type="submit">Register</button>
+    </form>
+    <script src="Register.js"></script>
+  </body>
+</html>
+>>>>>>> eaed695e26eb7473ca9ac37af3f712e6f7352a3c
