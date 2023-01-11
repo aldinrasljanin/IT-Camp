@@ -5,36 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Register.css" />
-    <title>Document</title>
+    <title>Register Form</title>
   </head>
   <body>
     <form id="registration-form" onsubmit="return validate(); ">
       <h1>Register User</h1>
       <label for="username">Name:</label>
-      <input type="text" id="name" name="name" />
+      <input type="text" id="name" name="name" title="Enter your first name" />
       <div id="name-error" class="error">Name field is empty</div>
       <br />
       <label for="username">Surname:</label>
-      <input type="text" id="surname" name="surname" />
+      <input
+        type="text"
+        id="surname"
+        name="surname"
+        title="Enter your last name"
+      />
       <div id="surname-error" class="error">Surname field is empty</div>
       <br />
       <label for="email">Email:</label>
-      <input type="email" id="email" name="email" />
+      <input type="email" id="email" name="email" title="Enter your email" />
       <div id="email-error" class="error">Email is not valid</div>
       <br />
       <label for="email">Confirm Email:</label>
-      <input type="email" id="confirm-email" name="email" />
+      <input
+        type="email"
+        id="confirm-email"
+        name="email"
+        title="Enter same email"
+      />
       <div id="cemail-error" class="error">Emails are not matching</div>
       <br />
       <label for="password">Password:</label>
-      <input type="password" id="password" name="password" />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Password must contain at least one number and one uppercase and lowercase letter, and at least 9 or more characters"
+      />
       <div id="password-error" class="error">Password is too short</div>
       <br />
       <label for="password-confirm">Confirm Password:</label>
-      <input type="password" id="confirm-password" name="password-confirm" />
+      <input
+        type="password"
+        id="confirm-password"
+        name="password-confirm"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Passwod must contain at least one number and one uppercase and lowercase letter, and at least 9 or more characters"
+      />
       <div id="cpassword-error" class="error">Passwords are not matching</div>
       <br />
-      <button type="submit">Register</button>
+      <button type="submit" title="Click me to register ">Register</button>
     </form>
     <script src="Register.js"></script>
   </body>

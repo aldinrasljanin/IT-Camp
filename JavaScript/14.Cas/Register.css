@@ -24,7 +24,12 @@ input[type="password"] {
 
 button {
   width: 100%;
-  background-color: #4caf50;
+  background-image: linear-gradient(
+    to right,
+    #0f2027,
+    rgb(22, 181, 181),
+    #2c5364
+  );
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
