@@ -124,11 +124,6 @@ window.document
 //Napraviit login formu, ulepsati je u css i napraviti validaciju
 //BONUS: jos jedno polje potvrdi sifru
 
-const form = document.getElementById("login-form");
-form.addEventListener("submit", (event) => {
-  if (psw2.value !== psw.value) {
-    ConfirmPassword.style.border = "1px solid red";
-    ConfirmPassword.focus();
-    return false;
-  }
-});
+let username = (document.getElementById = "username");
+let password1 = (document.getElementById = "password1");
+let password2 = (document.getElementById = "password2");
