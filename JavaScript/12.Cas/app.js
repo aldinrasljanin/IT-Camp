@@ -27,6 +27,21 @@ const listItemsTag = document.getElementsByTagName("li");
 
 let p = document.querySelector("demo");
 
+//Forme
+const handleSubmit = (e) => {
+  e.preventDefault();
+};
+
+const validacija = () => {
+  let vrednosti = document.forms["forma"]["first-name"].value;
+  if (vrednosti == "") {
+    alert("Morate popuniti prazno polje");
+    return false;
+  } else {
+    alert("Uspesno");
+  }
+};
+
 //Nodes
 const newParagraph = document.createElement("p");
 const text = document.createTextNode("Novi paragraf");
