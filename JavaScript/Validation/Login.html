@@ -13,34 +13,36 @@
     <link rel="stylesheet" href="Login.css" />
   </head>
   <body>
-    <form id="login-form" onsubmit="return validate();">
-      <h1>Login</h1>
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" />
-      <div id="name-error" class="error">Name field is empty</div>
-      <br /><br />
-      <label for="password">Password:</label>
-      <input
-        type="password"
-        id="password1"
-        name="password"
-        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
-        title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
-      />
-      <div id="password-error" class="error">Password is too short</div>
-      <br /><br />
-      <label for="confirm-password">Confirm Password:</label>
-      <input
-        type="password"
-        class="form-control2"
-        id="password2"
-        name="psw2"
-        title="Password has to be same "
-      />
-      <div id="cpassword-error" class="error">Passwords are not matching</div>
-      <br /><br />
-      <input type="submit" value="Submit" />
-    </form>
+    <div class="container">
+      <h1 class="label">User Login</h1>
+      <form class="login_form" name="form" onsubmit="return validated()">
+        <div class="font">Email:</div>
+        <input type="email" name="email" required />
+        <div id="email_error">Please fill up your email</div>
+        <div class="font font2">Password:</div>
+        <input
+          type="password"
+          name="password"
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+          title="Passwod must contain at least one number and one uppercase and lowercase letter, and at least 9 or more characters"
+        />
+        <div id="password_error">Please fill your password</div>
+        <div class="font">Confirm password:</div>
+        <input
+          type="password"
+          name="confirmPassword"
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+          title="Passwod must contain at least one number and one uppercase and lowercase letter, and at least 9 or more characters"
+        />
+        <button type="submit">
+          <a type="alog" href="/JavaScript/Validation/Home.html">Login</a>
+        </button>
+        <a href="#">Lost your password?</a><br />
+        <a href="/JavaScript/Validation/Register.html"
+          >Don't have an account?</a
+        >
+      </form>
+    </div>
     <script src="Login.js"></script>
   </body>
 </html>
