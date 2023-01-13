@@ -43,9 +43,9 @@ const validacija = () => {
 };
 
 //Nodes
-const newParagraph = document.createElement("p");
+const newParagraf = document.createElement("p");
 const text = document.createTextNode("Novi paragraf");
-newParagraph.appendChild(text);
+newParagraf.appendChild(text);
 
 const newElement = document.getElementById("container");
-newElement.appendChild(newParagraph);
+newElement.appendChild(newParagraf);
