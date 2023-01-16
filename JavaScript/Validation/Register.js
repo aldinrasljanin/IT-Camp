@@ -10,7 +10,6 @@ let errors = document.querySelectorAll(".error");
 for (var i = 0; i <= errors.length - 1; i++) {
   errors[i].setAttribute("style", "display: none");
 }
-
 const validate = () => {
   // Validacije imena
 
@@ -88,3 +87,42 @@ window.document
   .addEventListener("submit", (e) => {
     e.preventDefault();
   });
+
+const snowflakes = {
+  particles: {
+    number: {
+      value: 100,
+    },
+    shape: {
+      type: "circle",
+    },
+    size: {
+      value: 10,
+      random: true,
+    },
+    line_linked: {
+      enable: false,
+    },
+    move: {
+      enable: true,
+      speed: 2,
+      direction: "bottom",
+      straight: false,
+    },
+  },
+  interactivity: {
+    detect_on: "canvas",
+    events: {
+      onhover: {
+        enable: false,
+      },
+    },
+    modes: {
+      push: {
+        particles_nb: 12,
+      },
+    },
+  },
+};
+
+particlesJS("particles-js", snowflakes);

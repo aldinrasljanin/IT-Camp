@@ -12,7 +12,10 @@ input[type="password"] {
   margin: 8px 0;
   box-sizing: border-box;
   border: 2px solid #ccc;
-  border-radius: 4px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid #0f2027;
 }
 
 button {
@@ -20,7 +23,7 @@ button {
   background-image: linear-gradient(
     to right,
     #0f2027,
-    rgb(22, 181, 181),
+    rgb(41, 94, 94),
     #2c5364
   );
   color: white;
@@ -30,16 +33,13 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
-
-input[type="submit"]:hover {
-  background-color: #45a049;
-}
-
-.error {
-  color: red;
-}
 body {
-  background: linear-gradient(to right, #0f2027, rgb(22, 181, 181), #2c5364);
+  background-image: linear-gradient(
+    to right,
+    #0f2027,
+    rgb(41, 94, 94),
+    #2c5364
+  );
   font-family: "Poppins", sans-serif;
 }
 #registration-form {
@@ -62,38 +62,23 @@ form {
   text-align: left;
 }
 
-label {
-  font-weight: bold;
-  display: block;
-  margin-top: 20px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-  width: 100%;
-  padding: 10px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-}
-
-button {
-  width: 100%;
-  background-color: #4caf50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #45a049;
+button:hover {
+  background-image: linear-gradient(
+    to right,
+    #0f2027,
+    rgb(22, 181, 181),
+    #2c5364
+  );
 }
 
 .error {
   color: red;
+}
+#particles-js {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  height: 140vh;
+  width: 100%;
 }

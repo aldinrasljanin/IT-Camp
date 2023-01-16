@@ -60,7 +60,6 @@ body {
     rgb(41, 94, 94),
     #2c5364
   );
-  transition: 2s;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -93,12 +92,6 @@ body {
   background: linear-gradient(to right, #0f2027, rgb(41, 94, 94), #2c5364);
   font-family: "Poppins", sans-serif;
 }
-a[type="alog"] {
-  text-decoration: none;
-  color: black;
-  font-style: bold;
-}
-
 #particles-js {
   position: absolute;
   left: 0;
