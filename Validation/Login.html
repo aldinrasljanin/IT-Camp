@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Login.css" />
+  </head>
+  <body>`
+    <div id="particles-js"></div>
+    <div class="container">
+      <h1 class="label">User Login</h1>
+      <form class="login_form" name="form" onsubmit="return validated()">
+        <div class="font">Email:</div>
+        <input type="email" name="email" required />
+        <div id="email_error">Please fill up your email</div>
+        <div class="font font2">Password:</div>
+        <input
+          type="password"
+          name="password"
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+          title="Passwod must contain at least one number and one uppercase and lowercase letter, and at least 9 or more characters"
+        />
+        <div id="password_error">Please fill your password</div>
+        <div class="font">Confirm password:</div>
+        <input
+          type="password"
+          name="confirmPassword"
+          pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+          title="Passwod must contain at least one number and one uppercase and lowercase letter, and at least 9 or more characters"
+        />
+        <button type="submit">Login</a>
+        </button>
+        <a href="#">Lost your password?</a><br />
+        <a href="/JavaScript/Validation/Register.html"
+          >Don't have an account?</a
+        >
+      </form>
+    </div>
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="Login.js"></script>
+  </body>
+</html>
