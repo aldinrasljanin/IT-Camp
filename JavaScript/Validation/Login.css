@@ -39,6 +39,14 @@ body {
   font-size: 18px;
   outline: none;
   border: 1px solid silver;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid #0f2027;
+}
+
+.login_form input:focus {
+  border-left: 2px solid #0f2027;
 }
 .login_form .font2 {
   margin-top: 30px;
@@ -49,15 +57,24 @@ body {
   background-image: linear-gradient(
     to right,
     #0f2027,
-    rgb(22, 181, 181),
+    rgb(41, 94, 94),
     #2c5364
   );
+  transition: 2s;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+.login_form button:hover {
+  background-image: linear-gradient(
+    to right,
+    #0f2027,
+    rgb(22, 181, 181),
+    #2c5364
+  );
 }
 .login_form #email_error,
 .login_form #pass_error {
@@ -73,11 +90,19 @@ body {
   display: none;
 }
 body {
-  background: linear-gradient(to right, #0f2027, rgb(22, 181, 181), #2c5364);
+  background: linear-gradient(to right, #0f2027, rgb(41, 94, 94), #2c5364);
   font-family: "Poppins", sans-serif;
 }
 a[type="alog"] {
   text-decoration: none;
   color: black;
   font-style: bold;
+}
+
+#particles-js {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
 }

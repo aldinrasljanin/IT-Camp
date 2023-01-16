@@ -12,7 +12,8 @@
     />
     <link rel="stylesheet" href="Login.css" />
   </head>
-  <body>
+  <body>`
+    <div id="particles-js"></div>
     <div class="container">
       <h1 class="label">User Login</h1>
       <form class="login_form" name="form" onsubmit="return validated()">
@@ -34,8 +35,7 @@
           pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
           title="Passwod must contain at least one number and one uppercase and lowercase letter, and at least 9 or more characters"
         />
-        <button type="submit">
-          <a type="alog" href="/JavaScript/Validation/Home.html">Login</a>
+        <button type="submit">Login</a>
         </button>
         <a href="#">Lost your password?</a><br />
         <a href="/JavaScript/Validation/Register.html"
@@ -43,6 +43,7 @@
         >
       </form>
     </div>
+    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="Login.js"></script>
   </body>
 </html>
