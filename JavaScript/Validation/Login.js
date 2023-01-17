@@ -29,7 +29,7 @@ const validated = () => {
     confirmPassword.focus();
     return false;
   }
-  location.href = "/Validation/Home.html";
+  location.href = "/JavaScript/Validation/Home.html";
 };
 
 const email_Verify = () => {
