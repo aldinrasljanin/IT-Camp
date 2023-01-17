@@ -70,7 +70,7 @@ const validate = () => {
 
   // Validacija confirm passworda
 
-  if (password.value.length != confirmPassword.value.length) {
+  if (password.value != confirmPassword.value) {
     errors[5].setAttribute("style", "display: block");
     confirmPassword.focus();
     confirmPassword.style.border = "1px solid red";
