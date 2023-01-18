@@ -2,36 +2,40 @@
   padding: 0;
   margin: 0;
 }
+
 body {
   /* background: url(bg_img.jpg) no-repeat; */
   background-size: cover;
   align-items: center;
   justify-content: center;
   display: flex;
-  font-family: sans-serif;
+  background: linear-gradient(to right, #0f2027, rgb(41, 94, 94), #2c5364);
+  font-family: "Poppins", sans-serif;
 }
+
 .container {
   position: relative;
-  margin-top: 100px;
   width: 450px;
   height: auto;
   background: whitesmoke;
   border-radius: 5px;
 }
+
 .label {
   padding: 20px 130px;
   font-size: 35px;
   font-weight: bold;
-  /* color: #130f40; */
 }
+
 .login_form {
   padding: 20px 40px;
 }
+
 .login_form .font {
   font-size: 18px;
-  /* color: #130f40; */
   margin: 5px 0;
 }
+
 .login_form input {
   height: 40px;
   width: 100%;
@@ -48,9 +52,11 @@ body {
 .login_form input:focus {
   border-left: 2px solid #0f2027;
 }
+
 .login_form .font2 {
   margin-top: 30px;
 }
+
 .login_form button {
   width: 100%;
   text-decoration: none;
@@ -67,6 +73,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+
 .login_form button:hover {
   background-image: linear-gradient(
     to right,
@@ -75,6 +82,7 @@ body {
     #2c5364
   );
 }
+
 .login_form #email_error,
 .login_form #pass_error {
   margin-top: 5px;
@@ -88,10 +96,7 @@ body {
   border: 1px solid #ef9a9a;
   display: none;
 }
-body {
-  background: linear-gradient(to right, #0f2027, rgb(41, 94, 94), #2c5364);
-  font-family: "Poppins", sans-serif;
-}
+
 #particles-js {
   position: absolute;
   left: 0;

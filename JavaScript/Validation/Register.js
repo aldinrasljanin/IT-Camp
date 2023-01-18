@@ -7,6 +7,7 @@ let confirmPassword = document.getElementById("confirm-password");
 let errors = document.querySelectorAll(".error");
 
 // Stavlja display none na svaki element koji ima klasu error
+
 for (var i = 0; i <= errors.length - 1; i++) {
   errors[i].setAttribute("style", "display: none");
 }
