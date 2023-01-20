@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(
+    to right,
+    rgb(223, 92, 44),
+    rgb(219, 83, 34),
+    rgb(223, 92, 44)
+  );
+}
+
+#counter {
+  position: relative;
+  width: auto;
+  height: auto;
+  background: whitesmoke;
+  border-radius: 5px;
+  width: 260px;
+  height: 100%;
+  margin-left: 470px;
+  padding-left: 10px;
+  margin-top: 30px;
+  background-color: wheat;
+  font-style: oblique;
+}
+
+#count {
+  padding-bottom: 30px;
+  padding-left: 105px;
+  font-size: 36px;
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-top: 200px;
+  font-size: 70px;
+}
+
+.allbtn {
+  margin-right: 20px;
+  margin-bottom: 5px;
+  width: 50px;
+  height: 30px;
+  border: none;
+}
+#minus {
+  margin-left: 25px;
+}
+#minus:hover {
+  background-color: red;
+  color: white;
+}
+#reset:hover {
+  background-color: black;
+  color: white;
+}
+#plus:hover {
+  background-color: green;
+  color: white;
+}
+
+#particles-js {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  height: 99.25vh;
+  width: 100%;
+}
