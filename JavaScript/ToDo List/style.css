@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(31, 31, 31);
+}
+
+.list {
+  display: flex;
+  margin: 20px;
+  background: rgb(39, 39, 39);
+  height: fit-content;
+  width: max-content;
+  position: relative;
+  flex-direction: column;
+}
+
+.list__controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  align-items: center;
+  color: #f3f3f3;
+  background-color: rgb(59, 59, 59);
+  height: 30px;
+  width: 100%;
+  position: relative;
+}
+
+.list__items {
+  list-style-type: none;
+}
+
+.list button {
+  padding: 10px;
+  background: rgb(59, 59, 59);
+  border: none;
+  border-top: 1px solid rgb(83, 83, 83);
+  cursor: pointer;
+}
+
+.list__items li {
+  background: rgb(83, 83, 83);
+  border: 1px solid rgb(59, 59, 59);
+  padding: 10px 10px;
+}
+
+.list__controls input {
+  background: transparent;
+  border: none;
+  color: #f3f3f3;
+}
+
+.list__controls input:active {
+  border: none;
+}
