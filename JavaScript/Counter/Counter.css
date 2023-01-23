@@ -1,38 +1,26 @@
 body {
-  background: linear-gradient(
-    to right,
-    rgb(223, 92, 44),
-    rgb(219, 83, 34),
-    rgb(223, 92, 44)
-  );
+  background-color: #12181b;
 }
 
 #counter {
   position: relative;
   width: auto;
   height: auto;
-  background: whitesmoke;
+  background: white;
   border-radius: 5px;
   width: 260px;
   height: 100%;
-  margin-left: 470px;
-  padding-left: 10px;
-  margin-top: 30px;
-  background-color: wheat;
-  font-style: oblique;
+  background-color: white;
 }
 
 #count {
-  padding-bottom: 30px;
-  padding-left: 105px;
   font-size: 36px;
-  margin: 0 10px;
-  margin-bottom: 20px;
 }
 
 h1 {
   margin-top: 200px;
   font-size: 70px;
+  font-style: oblique;
 }
 
 .allbtn {
@@ -41,6 +29,7 @@ h1 {
   width: 50px;
   height: 30px;
   border: none;
+  /* background-color: wheat; */
 }
 #minus {
   margin-left: 25px;
@@ -63,6 +52,6 @@ h1 {
   z-index: -1;
   left: 0;
   top: 0;
-  height: 99.25vh;
+  height: 99.34vh;
   width: 100%;
 }
