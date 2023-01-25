@@ -2,12 +2,25 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   background: rgb(31, 31, 31);
 }
 
+.navigation {
+  background-color: rgb(15, 15, 15);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: rgb(34, 151, 197);
+  font-size: 12px;
+}
+.navigation > h2 {
+  margin-left: 20px;
+}
 .list {
   display: flex;
   margin: 20px;
@@ -16,6 +29,8 @@ body {
   width: max-content;
   position: relative;
   flex-direction: column;
+  border-radius: 12px 12px 0 0;
+  z-index: 1;
 }
 
 .list__controls {
@@ -28,6 +43,26 @@ body {
   height: 30px;
   width: 100%;
   position: relative;
+  border-radius: 12px 12px 0 0;
+}
+
+.add__list {
+  padding: 10px 20px;
+  background-color: rgb(34, 151, 197);
+  color: #f3f3f3;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  height: 45px;
+  align-self: center;
+  margin: 20px;
+  order: 2;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.add__list:hover {
+  background: rgb(15, 187, 255);
 }
 
 .list__items {
@@ -36,14 +71,20 @@ body {
 
 .list button {
   padding: 10px;
-  background: rgb(59, 59, 59);
+  background: rgb(34, 151, 197);
   border: none;
   border-top: 1px solid rgb(83, 83, 83);
   cursor: pointer;
+  border-radius: 0 0 12px 12px;
+  transition: 0.3s;
+}
+
+.list button:hover {
+  background: rgb(15, 187, 255);
 }
 
 .list__items li {
-  background: rgb(83, 83, 83);
+  background: darkred;
   border: 1px solid rgb(59, 59, 59);
   padding: 10px 10px;
 }
@@ -54,6 +95,43 @@ body {
   color: #f3f3f3;
 }
 
-.list__controls input:active {
-  border: none;
+.list__controls input:focus {
+  outline: none;
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+  height: max-content;
+  flex-wrap: wrap;
+  flex-grow: 0;
+}
+
+span {
+  cursor: pointer;
+}
+
+/* MENU */
+
+menu {
+  display: block;
+  position: absolute;
+  background-color: #f3f3f3;
+}
+
+menu li {
+  color: #f3f3f3;
+  list-style: none;
+  padding: 6px 10px !important;
+  width: 100%;
+  height: max-content;
+  background-color: rgb(34, 151, 197) !important;
+  transition: 0.4s;
+}
+
+menu li:hover {
+  background-color: rgb(15, 187, 255) !important;
+}
+menu li:hover {
+  cursor: pointer;
 }
