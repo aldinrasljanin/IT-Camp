@@ -5,7 +5,7 @@ let lists = [];
 let items = 0;
 
 function closelist(list) {
-  var lista = list.closest(".list");
+  let lista = list.closest(".list");
   items -= lista.children[1].children.length;
   let index = lists.indexOf(lista.className.replace("list list__", ""));
   lists.splice(index, 1);
@@ -91,16 +91,16 @@ function openmenu(item, event) {
 }
 
 function renameItem(item) {
-  var oldItem = item.closest("ul>li");
-  var menu = oldItem.querySelector("menu");
+  let oldItem = item.closest("ul>li");
+  let menu = oldItem.querySelector("menu");
   menu.style.display = "none";
-  var name = prompt("Rename item: ");
+  let name = prompt("Rename item: ");
   oldItem.textContent = name;
   oldItem.appendChild(menu);
 }
 
 function deleteItem(item) {
-  var oldItem = item.closest("ul>li");
+  let oldItem = item.closest("ul>li");
   oldItem.remove();
   items -= 1;
 }
