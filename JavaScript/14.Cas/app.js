@@ -83,7 +83,7 @@
 // // console.log(secondTry(someArray, (num) => num % 2 === 0));
 // console.log(secondTry((num) => num % 2 === 0, someArray));
 
-/////// OBJEKTI
+/// OBJEKTI
 
 // const classRoom = {
 //   subject: "Math",
