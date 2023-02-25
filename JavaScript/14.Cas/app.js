@@ -38,7 +38,7 @@
 // // someArray.map(myCallback);
 
 // // someArray.forEach(myCallback);
-
+// for each izlistava niz
 // const ourForEach = (array, callback) => {
 //   for (let i = 0; i < array.length; i++) {
 //     callback(array[i]);
@@ -84,6 +84,7 @@
 // console.log(secondTry((num) => num % 2 === 0, someArray));
 
 /// OBJEKTI
+// key:value  // jedan properti
 
 // const classRoom = {
 //   subject: "Math",
@@ -124,6 +125,7 @@
 // ];
 
 // console.log(this);
+// this // rezervisana rec za objekte u ovom slucaju classRoom2
 
 /// Obnavljanje ///
 
