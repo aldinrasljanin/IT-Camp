@@ -221,10 +221,11 @@ function sayHello(arg1, arg2, arg3) {
 
 sayHello.call(customObject.knowledge, "argument1", "argument2");
 sayHello.apply(customObject.knowledge, ["argument1", "argument2", "argument3"]);
+// razlika je samo slanje u nizu
 
 // sayHello();
 
-// console.log(this);
+// console.log(this); // svi elementi u browzeru se console logaju
 
 // console.log(customObject.knowledge.advanced.josJedan.paJosJedan.onda.poslednji);
 
