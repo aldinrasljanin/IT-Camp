@@ -4,10 +4,12 @@
 
 // const miniCalculator = () => {
 //   const brojOkretanja = prompt("Unesi broj okretanja");
-//   //   let initialValue = 1;
+//   let initialValue = 0; // first exemple with +
+//   let initialValue = 1; // second exemple with *
 
 //   for (let i = 0; i < brojOkretanja; i++) {
-//     initialValue *= +prompt("Unesi broj");
+//     initialValue += +prompt("Unesi broj");  // first exemple with +
+//     initialValue *= +prompt("Unesi broj");  // second exemple with *
 //   }
 
 //   alert(initialValue, "je krajnji rezultat");
