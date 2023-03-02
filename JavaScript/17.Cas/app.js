@@ -1,4 +1,4 @@
-// 1.Zadatak
+/// 1.Zadatak ///
 // Prvi Deo. Napraviti pomocni niz koji ce sadrzati sve elemente od oba niza.
 // Drugi deo. Napraviti jos jedan pomocni niz koji ce iz prvog dodatog niza uzeti parne brojeve.
 // Treci deo. U drigom pomocnom nizu umetnuti na prva dva mesta 10 i 20.
@@ -15,7 +15,7 @@
 // };
 // console.log(firstAssignament(DATA1, DATA2));
 
-// 2.Zadatak
+/// 2.Zadatak ///
 // Napraviti novi niz koji sadrzi kvadrate elemenata postojeceg niza:
 
 // const numbers2 = [2, 5, 10, 3, 4, 8];
@@ -24,21 +24,19 @@
 //   return powedNumbers;
 //   return array.map((el) => el * el); // Skraceni deo
 // };
-
 // const shortPow = (array) => array.map((el) => el * el); // Laksi nacin
 // console.log(shortPow(numbers2));
-
 // console.log(powNumbers(numbers2));
 
-// 3.Zadatak
-// Napraviti novi niz koji sadrzi kvadratne korene elemenata predstojeceg niza.
+/// 3.Zadatak ///
+// Napraviti novi niz koji sadrzi kvadratne korene elemenata postojeceg niza.
 // const numbers = [4, 9, 16, 25, 36];
-// const squereNumbers = (array) => array.map((el) => Math.sqrt(el));
-
+// Math.sqrt();
+// const squareNumbers = (array) => array.map((el) => Math.sqrt(el));
 // console.log(numbers);
-// console.log(squereNumbers(numbers));
+// console.log(squareNumbers(numbers));
 
-// 4.Zadatak
+/// 4.Zadatak ///
 // Napraviti funkciju koja pravi niz koji ce iz postojeceg napraviti novi uz ispunjenje uslova:
 // value > 2 ==> value * 7
 // value >2 and value <8 => (value*4)/2
@@ -46,3 +44,36 @@
 // I na kraju treba novi niz vratiti sa godinama >10
 
 // const numbers = [3, 5, 10, 13, 22, 253, 10];
+// const customAssignment = (array) => {
+//   let result = array.map((el) => {
+//     if (el > 2) return el * 7;
+//     else if (el > 2 && el < 8) return (el * 4) / 2;
+//   });
+// };
+
+// 4. Zadatak
+// Kvadrirati one brojeve koje imaju index 0,3,5.
+// 6. Zadatak
+// Napraviti novi niz koji filtrira postojeci i vraca novi sa parnim elementima.
+// 7. Zadatak
+// Napraviti novi niz koji filtrira postojeci i vraca novi sa onim elementima starog niza,
+// gde je drugo slovo e.
+// const words = ['televizor', 'daljinski', 'telefon', 'voda', 'ranac', 'stolica'];
+// 8. Zadatak
+// Napraviti novi niz koji filtrira postojeci i vraca novi sa onim elementima cija
+// je duzina >= 6.
+// 9. Zadatak
+// Napraviti novi niz koji filtrira postojeci i vraca novi sa onim elementima ciji je tip "boolean';.
+// const booleans = [true, false, true, false];
+// 10. Zadatak
+// Preko funkcije napraviti niz koji se sastoji iz parnih brojeva manjih ili jednakih 50 postojeceg niza.
+// 11. Zadatak
+// Sabrati sve godine tj. elemente niza a nakon toga podeliti sa brojem elemenata.
+// tj. vratiti prosecnu starost godina.
+// 12. Zadatak
+// Write a function that converts an array of values from miles to kilometres using the map method.
+// In the end, add the kilometres up in a new variable called "totalDistanceInKilometers"; and
+// return this variable.
+// 13. Zadatak
+// From the array of numbers, choose even double even numbers and
+// compute the sum using Array&#39;s filter, map and reduce methods.
