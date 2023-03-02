@@ -53,18 +53,62 @@
 
 // 4. Zadatak
 // Kvadrirati one brojeve koje imaju index 0,3,5.
+
+// function powNumbers(array) {
+//   array.forEach((el, idx) => {
+//     if (idx === 0 || idx === 3 || idx === 5) {
+//       array[idx] = el ** 2;
+//     }
+//   });
+//   return array;
+// }
+
+// const array = [4, 2, 5, 8, 14, 25];
+// const result = powNumbers(array);
+// console.log(result); // [16, 2, 5, 64, 14, 625]
+
 // 6. Zadatak
 // Napraviti novi niz koji filtrira postojeci i vraca novi sa parnim elementima.
+
+// const evanNumbers = (array) => {
+//   return array.filter((el) => el % 2 === 0);
+// };
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(evanNumbers(array)); // [2, 4, 6, 8, 10]
+
 // 7. Zadatak
 // Napraviti novi niz koji filtrira postojeci i vraca novi sa onim elementima starog niza,
 // gde je drugo slovo e.
-// const words = ['televizor', 'daljinski', 'telefon', 'voda', 'ranac', 'stolica'];
+
+// const filteredArray = (array) => {
+//   return array.filter((el) => el[1] === "e");
+// };
+
+// const words = ["televizor", "daljinski", "telefon", "voda", "ranac", "stolica"];
+// console.log(filteredArray(words)); // ["televizor", "telefon"]
+
 // 8. Zadatak
 // Napraviti novi niz koji filtrira postojeci i vraca novi sa onim elementima cija
 // je duzina >= 6.
+
+// function filteredArray(array) {
+//   return array.filter(function (el) {
+//     return el.length >= 6;
+//   });
+// }
+// const array = ["televizor", "daljinski", "telefon", "voda", "ranac", "stolica"];
+// console.log(filteredArray(array)); //["televizor", "daljinski", "telefon", "stolica"];
+
 // 9. Zadatak
 // Napraviti novi niz koji filtrira postojeci i vraca novi sa onim elementima ciji je tip "boolean';.
 // const booleans = [true, false, true, false];
+// const booleans = [true, false, true, false];
+
+// const filteredBooleans = booleans.filter((item) => typeof item === "boolean");
+
+// console.log(filteredBooleans); // Output: [true, false, true, false]
+
 // 10. Zadatak
 // Preko funkcije napraviti niz koji se sastoji iz parnih brojeva manjih ili jednakih 50 postojeceg niza.
 // 11. Zadatak
