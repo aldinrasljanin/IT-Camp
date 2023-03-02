@@ -128,26 +128,93 @@ const watchList = [
 // );
 // console.log(nolanMovies);
 
-// const nolanRatings = nolanMovies.map((el) => el.imdbRating);   /// Prvi nacin ///
+// const nolanRatings = nolanMovies.map((el) => el.imdbRating);
+
 // console.log(nolanRatings);
 
-// nolanRatings.reduce((prev, curr) => +prev + +curr / nolanRatings.length);
+// const sum = nolanRatings.reduce(
+//   (prev, curr) => +prev + +curr / nolanRatings.length
+// );
+
+const mockData = [1, 23, 5645, 767, 657, 455, 34543];
 // console.log(sum);
 
 // const customMovieFunction = (movieArray) => {
 //   const filteredArray = movieArray.filter(
 //     (el) => el.Director === "Christopher Nolan"
 //   );
-//   const mappedArray = filteredArray.map((el) => el.imdbRating); /// Drugi i laksi nacin ///
+//   const mappedArray = filteredArray.map((el) => el.imdbRating);
 //   const avarageRating = mappedArray.reduce(
 //     (prev, curr) => +prev + +curr / mappedArray.length
 //   );
 //   return {
-// filteredArray,
-// mappedArray,
-// avarageRating,
+//     filteredArray,
+//     mappedArray,
+//     avarageRating,
 //   };
 // };
-// console.log(customMovieFunction(watchList));
 
-// falsey value, closure pogledati za sledeci cas
+// console.log(customMovieFunction(watchList));
+// const aldin = customMovieFunction(watchList);
+// console.log(aldin.avarageRating);
+
+// mockData.pop();
+
+// const spreadArray = [...mockData];
+
+// spreadArray.map((el) => ["nesto", ...el]);
+
+// console.log(spreadArray);
+
+// const mockObject = {
+//   nesto: "aaaa",
+//   sto: "drveni",
+//   laptop: "aluminijum",
+// };
+// console.log(mockObject);
+// const data = { ...mockObject, sto: "Maxi" };
+// console.log(data);
+
+// var, let ,const
+
+// const a = 5;
+
+// const nesto = function () {
+//   console.log(a);
+// };
+
+// nesto();
+// console.log(a);
+
+// global scope
+// const e = 10;
+// function sum(a) {
+//   return function (b) {
+//     return function (c) {
+//       return function (d) {
+//         return a + b + c + d + e;
+//       };
+//     };
+//   };
+// }
+
+// console.log(sum(1)(2)(3)(4)); // 20
+
+// let name1 = "nerma";
+// let name2 = "serkan";
+
+// reversingNames(name1, "aldin");
+
+// true || undefined;
+
+// console.log(undefined || 3 == 3);
+
+// console.log("33" * 3);
+
+function reversingNames(name1, name2) {
+  for (let i = name2.length - 1; i >= 0; i--) {
+    if (name1[i]) console.log(name1[i], i);
+    console.log(name2[i], i);
+  }
+}
+reversingNames("nerma", "aldin");
