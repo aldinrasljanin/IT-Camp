@@ -55,16 +55,16 @@
 // Kvadrirati one brojeve koje imaju index 0,3,5.
 
 // function powNumbers(array) {
-//   array.forEach((el, idx) => {
-//     if (idx === 0 || idx === 3 || idx === 5) {
-//       array[idx] = el ** 2;
+//   array.map((el, index) => {
+//     if (index === 0 || index === 3 || index === 5) {
+//       array[index] = el ** 2;
 //     }
 //   });
 //   return array;
 // }
 
 // const array = [4, 2, 5, 8, 14, 25];
-console.log(powNumbers(array)); // [16, 2, 5, 64, 14, 625]
+// console.log(powNumbers(array)); // [16, 2, 5, 64, 14, 625]
 
 // 6. Zadatak
 // Napraviti novi niz koji filtrira postojeci i vraca novi sa parnim elementima.
