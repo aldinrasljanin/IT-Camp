@@ -80,10 +80,10 @@
 // Napraviti novi niz koji filtrira postojeci i vraca novi sa onim elementima starog niza,
 // gde je drugo slovo e.
 
-const filteredArray = (array) => array.filter((el) => el[1] === "e");
+// const filteredArray = (array) => array.filter((el) => el[1] === "e");
 
-const words = ["televizor", "daljinski", "telefon", "voda", "ranac", "stolica"];
-console.log(filteredArray(words)); // ["televizor", "telefon"]
+// const words = ["televizor", "daljinski", "telefon", "voda", "ranac", "stolica"];
+// console.log(filteredArray(words)); // ["televizor", "telefon"]
 
 // 8. Zadatak
 // Napraviti novi niz koji filtrira postojeci i vraca novi sa onim elementima cija
