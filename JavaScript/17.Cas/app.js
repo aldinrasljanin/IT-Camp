@@ -36,7 +36,7 @@
 // console.log(numbers);
 // console.log(squareNumbers(numbers));
 
-/// 4.Zadatak ///
+/// 5.Zadatak ///
 // Napraviti funkciju koja pravi niz koji ce iz postojeceg napraviti novi uz ispunjenje uslova:
 // value > 2 ==> value * 7
 // value >2 and value <8 => (value*4)/2
