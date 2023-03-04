@@ -100,17 +100,15 @@
 // 9. Zadatak
 // Napraviti novi niz koji filtrira postojeci i vraca novi sa onim elementima ciji je tip "boolean';.
 // const booleans = [true, false, true, false];
-// const booleans = [true, false, true, false];
 
 // const filteredBooleans = booleans.filter((item) => typeof item === "boolean");
-
-// console.log(filteredBooleans); // Output: [true, false, true, false]
+// console.log(filteredBooleans(booleans));
 
 // 10. Zadatak
 // Preko funkcije napraviti niz koji se sastoji iz parnih brojeva manjih ili jednakih 50 postojeceg niza.
-const arrayExample = [3, 6, 10, 82, 93, 105, 42, 28, 52, 50, 51, 22, 83];
-const evanArray = (array) => array.filter((el) => el <= 50 && el % 2 === 0);
-console.log(evanArray(arrayExample));
+// const arrayExample = [3, 6, 10, 82, 93, 105, 42, 28, 52, 50, 51, 22, 83];
+// const evanArray = (array) => array.filter((el) => el <= 50 && el % 2 === 0);
+// console.log(evanArray(arrayExample));
 
 // 11. Zadatak
 // Sabrati sve godine tj. elemente niza a nakon toga podeliti sa brojem elemenata.
