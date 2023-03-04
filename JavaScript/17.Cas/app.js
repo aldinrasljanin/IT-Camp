@@ -108,13 +108,40 @@
 
 // 10. Zadatak
 // Preko funkcije napraviti niz koji se sastoji iz parnih brojeva manjih ili jednakih 50 postojeceg niza.
+const arrayExample = [3, 6, 10, 82, 93, 105, 42, 28, 52, 50, 51, 22, 83];
+const evanArray = (array) => array.filter((el) => el <= 50 && el % 2 === 0);
+console.log(evanArray(arrayExample));
+
 // 11. Zadatak
 // Sabrati sve godine tj. elemente niza a nakon toga podeliti sa brojem elemenata.
 // tj. vratiti prosecnu starost godina.
+
 // 12. Zadatak
 // Write a function that converts an array of values from miles to kilometres using the map method.
 // In the end, add the kilometres up in a new variable called "totalDistanceInKilometers"; and
 // return this variable.
+
+// const niz = [73, 100, 88, 105, 110, 200];
+// const milesToKm = (array) => {
+//   const kilometres = array.map((miles) => miles * 1.61);
+//   const totalDistanceInKilometers = kilometres.reduce(
+//     (prev, curr) => prev + curr
+//   );
+//   return totalDistanceInKilometers;
+// };
+// console.log(Math.round(milesToKm(niz)));
+
 // 13. Zadatak
 // From the array of numbers, choose even double even numbers and
 // compute the sum using Array&#39;s filter, map and reduce methods.
+// const arrayExample = [3, 6, 10, 82, 93, 105, 42, 28, 52];
+
+// const combination = (array) => {
+//   const filtered = array.filter((el) => el % 2 === 0);
+//   //   console.log(filtered);
+//   const doubled = filtered.map((el) => el * 2);
+//   //   console.log(doubled);
+//   const sum = doubled.reduce((prev, curr) => prev + curr, 60);
+//   return sum;
+// };
+// console.log(combination(arrayExample));
