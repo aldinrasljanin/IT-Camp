@@ -64,9 +64,7 @@
 // }
 
 // const array = [4, 2, 5, 8, 14, 25];
-console.log();
-// const result = powNumbers(array);
-// console.log(result); // [16, 2, 5, 64, 14, 625]
+console.log(powNumbers(array)); // [16, 2, 5, 64, 14, 625]
 
 // 6. Zadatak
 // Napraviti novi niz koji filtrira postojeci i vraca novi sa parnim elementima.
