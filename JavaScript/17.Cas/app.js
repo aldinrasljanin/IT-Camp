@@ -30,11 +30,11 @@ console.log(powNumbers(numbers2));
 
 /// 3.Zadatak ///
 // Napraviti novi niz koji sadrzi kvadratne korene elemenata postojeceg niza.
-const numbers = [4, 9, 16, 25, 36];
-Math.sqrt();
-const squareNumbers = (array) => array.map((el) => Math.sqrt(el));
-console.log(numbers);
-console.log(squareNumbers(numbers));
+// const numbers = [4, 9, 16, 25, 36];
+// Math.sqrt();
+// const squareNumbers = (array) => array.map((el) => Math.sqrt(el));
+// console.log(numbers);
+// console.log(squareNumbers(numbers));
 
 /// 5.Zadatak ///
 // Napraviti funkciju koja pravi niz koji ce iz postojeceg napraviti novi uz ispunjenje uslova:
