@@ -18,15 +18,15 @@ console.log(firstAssignament(DATA1, DATA2));
 /// 2.Zadatak ///
 // Napraviti novi niz koji sadrzi kvadrate elemenata postojeceg niza:
 
-const numbers2 = [2, 5, 10, 3, 4, 8];
-const powNumbers = (array) => {
-  let powedNumbers = array.map((el) => el * el);
-  return powedNumbers;
-  return array.map((el) => el * el); // Skraceni deo
-};
-const shortPow = (array) => array.map((el) => el * el); // Laksi nacin
-console.log(shortPow(numbers2));
-console.log(powNumbers(numbers2));
+// const numbers2 = [2, 5, 10, 3, 4, 8];
+// const powNumbers = (array) => {
+//   let powedNumbers = array.map((el) => el * el);
+//   return powedNumbers;
+//   return array.map((el) => el * el); // Skraceni deo
+// };
+// const shortPow = (array) => array.map((el) => el * el); // Laksi nacin
+// console.log(shortPow(numbers2));
+// console.log(powNumbers(numbers2));
 
 /// 3.Zadatak ///
 // Napraviti novi niz koji sadrzi kvadratne korene elemenata postojeceg niza.
