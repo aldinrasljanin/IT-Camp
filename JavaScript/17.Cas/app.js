@@ -4,16 +4,16 @@
 // Treci deo. U drigom pomocnom nizu umetnuti na prva dva mesta 10 i 20.
 // Funkcija na kraju treba da vrati dva napravljena pomocna niza.
 
-const DATA1 = [2, 26, 38, 75, 11, 29];
-const DATA2 = [4, 6, 5, 10, 33, 52, 75];
+// const DATA1 = [2, 26, 38, 75, 11, 29];
+// const DATA2 = [4, 6, 5, 10, 33, 52, 75];
 
-const firstAssignament = (array1, array2) => {
-  const combined = array1.concat(array2); // Prvi deo
-  const filteredArray = combined.filter((el) => el % 2 === 0); // Drugi deo
-  filteredArray.unshift(10, 20); // Treci deo
-  return combined, filteredArray; // Kraj
-};
-console.log(firstAssignament(DATA1, DATA2));
+// const firstAssignament = (array1, array2) => {
+//   const combined = array1.concat(array2); // Prvi deo
+//   const filteredArray = combined.filter((el) => el % 2 === 0); // Drugi deo
+//   filteredArray.unshift(10, 20); // Treci deo
+//   return combined, filteredArray; // Kraj
+// };
+// console.log(firstAssignament(DATA1, DATA2));
 
 /// 2.Zadatak ///
 // Napraviti novi niz koji sadrzi kvadrate elemenata postojeceg niza:
