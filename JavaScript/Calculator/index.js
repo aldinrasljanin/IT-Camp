@@ -7,6 +7,7 @@ console.log(buttons);
 console.log(buttons[0]);
 
 const Functions = (value) => {
+  const lastChar = display.innerText.slice(-1);
   if (value === "=") {
     display.innerText = eval(display.innerText);
   } else if (value === "AC") {
@@ -17,9 +18,9 @@ const Functions = (value) => {
     if (display.innerText.startsWith("-")) {
       display.innerText = display.innerText.slice(1);
     } else display.innerText = `-${display.innerText}`;
-  } else if (value === "+") {
+  } else if (value === "+" && lastChar !== "+") {
     display.innerText += "+";
-  } else if (value === "-") {
+  } else if (value === "-" && lastChar !== "-") {
     display.innerText += "-";
   } else {
     display.innerText += value;
