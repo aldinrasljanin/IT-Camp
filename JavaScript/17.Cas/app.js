@@ -237,12 +237,13 @@ const products = [
     quantity: 14,
   },
 ];
-function ispitiZalihe(niz) {
-  for (let i = 0; i < niz.length; i++) {
-    if (niz[i].zalihe > 40) {
-      niz[i].cena *= 0.6; // smanjujemo cenu za 40%
-    } else if (niz[i].zalihe > 20) {
-      niz[i].cena *= 0.8; // smanjujemo cenu za 20%
+function ispitiZalihe(products) {
+  for (let i = 0; i < products.length; i++) {
+    if (products[i].zalihe > 40) {
+      products[i].cena *= 0.6; // smanjujemo cenu za 40%
+    } else if (products[i].zalihe > 20) {
+      products[i].cena *= 0.8; // smanjujemo cenu za 20%
     }
   }
 }
+console.log(products);
