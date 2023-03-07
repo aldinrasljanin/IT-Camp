@@ -36,7 +36,6 @@ const Functions = (value) => {
     }
   } else {
     display.innerText += value;
-    e.target.removeEventListener("click", handleClick);
   }
 };
 
@@ -47,8 +46,6 @@ for (let i = 0; i < buttons.length; i++) {
     Functions(value);
   });
 }
-for (let i = 0; i < buttons.length; i++) {
-  buttons[i].addEventListener("click", handleClick);
-}
+
 // display.innerHTML = "nesto";
 // eval
