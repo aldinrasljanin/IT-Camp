@@ -11,6 +11,8 @@ const Functions = (value) => {
     display.innerText = eval(display.innerText);
   } else if (value === "AC") {
     display.innerText = "";
+  } else if (value === "C") {
+    display.innerText = display.innerText.slice(0, -1);
   } else if (value === "+/-") {
     if (display.innerText.startsWith("-")) {
       display.innerText = display.innerText.slice(1);
