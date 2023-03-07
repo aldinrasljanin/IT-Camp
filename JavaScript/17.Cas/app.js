@@ -237,13 +237,15 @@ const products = [
     quantity: 14,
   },
 ];
-function ispitiZalihe(products) {
-  for (let i = 0; i < products.length; i++) {
-    if (products[i].zalihe > 40) {
-      products[i].cena *= 0.6; // smanjujemo cenu za 40%
-    } else if (products[i].zalihe > 20) {
-      products[i].cena *= 0.8; // smanjujemo cenu za 20%
+// console.log(products);
+
+const updateProductPrices = (products) => {
+  products.filter((product) => {
+    if (product.quantity > 40) {
+      product.price *= 0.6;
+    } else if (product.quantity > 20) {
+      product.price *= 0.8;
     }
-  }
-}
+  });
+};
 console.log(products);
