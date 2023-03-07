@@ -8,14 +8,14 @@ console.log(buttons[0]);
 
 const nekaDrugaFunkcija = (value) => {
   if (value === "=") {
-    prikaz.innerText = eval(prikaz.innerText);
+    display.innerText = eval(display.innerText);
   } else if (value === "AC") {
-    prikaz.innerText = "";
+    display.innerText = "";
   } else if (value === "+/-") {
-    if (prikaz.innerText.startsWith("-")) {
-      prikaz.innerText = prikaz.innerText.slice(1);
-    } else prikaz.innerText = `-${prikaz.innerText}`;
-  } else prikaz.innerText += value;
+    if (display.innerText.startsWith("-")) {
+      display.innerText = display.innerText.slice(1);
+    } else display.innerText = `-${display.innerText}`;
+  } else display.innerText += value;
 };
 
 for (let i = 0; i < buttons.length; i++) {
