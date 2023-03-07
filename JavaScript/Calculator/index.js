@@ -1,10 +1,10 @@
 const display = document.getElementById("input-wrap");
-console.log(display);
+// console.log(display);
 
 const buttons = document.getElementsByClassName("numbers");
-console.log(buttons);
+// console.log(buttons);
 
-console.log(buttons[0]);
+// console.log(buttons[0]);
 
 const Functions = (value) => {
   const lastChar = display.innerText.slice(-1);
@@ -18,12 +18,25 @@ const Functions = (value) => {
     if (display.innerText.startsWith("-")) {
       display.innerText = display.innerText.slice(1);
     } else display.innerText = `-${display.innerText}`;
-  } else if (value === "+" && lastChar !== "+") {
-    display.innerText += "+";
-  } else if (value === "-" && lastChar !== "-") {
-    display.innerText += "-";
+  } else if (value === "+") {
+    if (lastChar !== "+") {
+      display.innerText += "+";
+    }
+  } else if (value === "-") {
+    if (lastChar !== "-") {
+      display.innerText += "-";
+    }
+  } else if (value === "*") {
+    if (lastChar !== "*") {
+      display.innerText += "*";
+    }
+  } else if (value === "/") {
+    if (lastChar !== "/") {
+      display.innerText += "/";
+    }
   } else {
     display.innerText += value;
+    e.target.removeEventListener("click", handleClick);
   }
 };
 
@@ -34,6 +47,8 @@ for (let i = 0; i < buttons.length; i++) {
     Functions(value);
   });
 }
-
+for (let i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener("click", handleClick);
+}
 // display.innerHTML = "nesto";
 // eval
