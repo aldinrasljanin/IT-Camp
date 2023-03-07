@@ -17,7 +17,13 @@ const Functions = (value) => {
     if (display.innerText.startsWith("-")) {
       display.innerText = display.innerText.slice(1);
     } else display.innerText = `-${display.innerText}`;
-  } else display.innerText += value;
+  } else if (value === "+") {
+    display.innerText += "+";
+  } else if (value === "-") {
+    display.innerText += "-";
+  } else {
+    display.innerText += value;
+  }
 };
 
 for (let i = 0; i < buttons.length; i++) {
