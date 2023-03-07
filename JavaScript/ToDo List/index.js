@@ -4,14 +4,6 @@ let firstitem;
 let lists = [];
 let items = 0;
 
-function closelist(list) {
-  let lista = list.closest(".list");
-  items -= lista.children[1].children.length;
-  let index = lists.indexOf(lista.className.replace("list list__", ""));
-  lists.splice(index, 1);
-  lista.remove();
-}
-
 function createList(name) {
   if (
     lists.includes(name.replace(" ", "-")) ||
@@ -37,7 +29,15 @@ function createList(name) {
     lists.push(`${name.replace(" ", "-")}`);
   }
 }
+function closelist(list) {
+  let lista = list.closest(".list");
+  items -= lista.children[1].children.length;
+  let index = lists.indexOf(lista.className.replace("list list__", ""));
+  lists.splice(index, 1);
+  lista.remove();
+}
 
+// Add item to list //
 function addItemToList(list) {
   let itemList = list.closest(".list").classList[1];
   let itemValue = prompt(`Add new item to ${itemList.replace(`list__`, ``)}`);
@@ -47,6 +47,7 @@ function addItemToList(list) {
   <li onclick="deleteItem(this)">Delete</li>
 </menu>`;
 
+  // context menu from 44 to 106 line of code //
   item.className = `item__${items}`;
   if (items.length == 0) {
     firstitem = document.querySelector(".item__0");

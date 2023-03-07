@@ -6,16 +6,23 @@ console.log(buttons);
 
 console.log(buttons[0]);
 
-for (let i = 0; i < buttons.length; i++) {
-  console.log(buttons[0]);
-  buttons[i].addEventListener("click", (e) => {
+const nekaDrugaFunkcija = (value) => {
+  if (value === "=") {
+    prikaz.innerText = eval(prikaz.innerText);
+  } else if (value === "AC") {
+    prikaz.innerText = "";
+  } else if (value === "+/-") {
+    if (prikaz.innerText.startsWith("-")) {
+      prikaz.innerText = prikaz.innerText.slice(1);
+    } else prikaz.innerText = `-${prikaz.innerText}`;
+  } else prikaz.innerText += value;
+};
+
+for (let i = 0; i < buttoni.length; i++) {
+  buttoni[i].addEventListener("click", (e) => {
     console.log(e.target.textContent);
     let value = e.target.textContent;
-    if (value === "=") {
-      display.innerText = eval(display.innerText);
-    } else if (value === "AC") {
-      display.innerText = "";
-    } else display.innerText = e.target.textContent;
+    nekaDrugaFunkcija(value);
   });
 }
 
