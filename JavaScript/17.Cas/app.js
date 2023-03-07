@@ -258,43 +258,44 @@
 // };
 // console.log(checkProduct(products));
 
-const mockData = [
-  {
-    id: 1,
-    name: "nesto",
-    lastname: "",
-    subject: "",
-    age: 17,
-  },
-  {
-    id: 2,
-    name: "nesto",
-    lastname: "",
-    subject: "",
-    age: 17,
-  },
-  {
-    id: 3,
-    name: "nesto",
-    lastname: "",
-    subject: "",
-    age: 30,
-  },
-  {
-    id: 4,
-    name: "nesto",
-    lastname: "",
-    subject: "",
-    age: 22,
-  },
-  {
-    id: 5,
-    name: "nesto",
-    lastname: "",
-    subject: "",
-    age: 17,
-  },
-];
+// 16.Zadatak
+// const mockData = [
+//   {
+//     id: 1,
+//     name: "nesto",
+//     lastname: "",
+//     subject: "",
+//     age: 17,
+//   },
+//   {
+//     id: 2,
+//     name: "nesto",
+//     lastname: "",
+//     subject: "",
+//     age: 17,
+//   },
+//   {
+//     id: 3,
+//     name: "nesto",
+//     lastname: "",
+//     subject: "",
+//     age: 30,
+//   },
+//   {
+//     id: 4,
+//     name: "nesto",
+//     lastname: "",
+//     subject: "",
+//     age: 22,
+//   },
+//   {
+//     id: 5,
+//     name: "nesto",
+//     lastname: "",
+//     subject: "",
+//     age: 17,
+//   },
+// ];
 // const classRoom = (array) => {
 //   let newArray = array.filter((el) => {
 //     return el.age > 20;
