@@ -1,7 +1,7 @@
 const display = document.getElementById("input-wrap");
 console.log(display);
 
-const buttons = document.getElementsByClassName("number");
+const buttons = document.getElementsByClassName("numbers");
 console.log(buttons);
 
 console.log(buttons[0]);
