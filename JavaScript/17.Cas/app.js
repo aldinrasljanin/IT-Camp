@@ -146,13 +146,13 @@
 
 // 14. Zadatak
 // Iz niza elemenata izracunati sumu parnih brojeva niza.
-const array = [3, 6, 10, 82, 93, 105, 42, 28, 52];
+const numbers = [3, 6, 10, 82, 93, 105, 42, 28, 52];
 
-const sumOfEvenNumbers = array
-  .filter((el) => el % 2 === 0)
-  .reduce((prev, curr) => prev + curr);
+const sumOfEvenNumbers = numbers
+  .filter((num) => num % 2 === 0)
+  .reduce((num1, num2) => num1 + num2);
 
-console.log(sumOfEvenNumbers);
+console.log(sumOfEvenNumbers); // 220
 
 //  15. Zadatak
 // Napraviti funkciju koja ispituje neki niz (argument).
