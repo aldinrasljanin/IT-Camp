@@ -130,8 +130,8 @@
 // console.log(Math.round(milesToKm(niz)));
 
 // 13. Zadatak
-// From the array of numbers, choose even double even numbers and
-// compute the sum using Array&#39;s filter, map and reduce methods.
+// From the array of numbers, choose even, double even numbers and
+// compute the sum using Arrays:filter, map and reduce methods.
 // const arrayExample = [3, 6, 10, 82, 93, 105, 42, 28, 52];
 
 // const combination = (array) => {
@@ -238,11 +238,11 @@ const products = [
   },
 ];
 
-const adjustPrice = (prod) => {
-  const { quantity } = prod;
-  if (quantity > 40) prod.price *= 0.6;
-  else if (quantity > 20) prod.price *= 0.8;
-  return prod;
+const adjustPrice = (product) => {
+  const { quantity } = product;
+  if (quantity > 40) product.price *= 0.6;
+  else if (quantity > 20) product.price *= 0.8;
+  return product;
 };
 // const adjustedProducts = products.map(adjustPrice);
 // console.log(adjustedProducts);
