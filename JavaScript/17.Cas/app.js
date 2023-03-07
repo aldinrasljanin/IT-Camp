@@ -308,3 +308,14 @@ const mockData = [
 //   return newArray;
 // };
 // console.log(filteredStudents(mockData));
+
+const changeData = (argument2) => {
+  return argument2.map((al) => {
+    return {
+      ...al,
+      id: al.id - 1,
+      age: al.age * 3,
+    };
+  });
+};
+console.log(changeData(mockData));
