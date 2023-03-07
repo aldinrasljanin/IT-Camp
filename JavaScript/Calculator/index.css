@@ -41,6 +41,7 @@ body {
 #input-wrap {
   position: relative;
   width: calc(100% - 4px);
+  height: 70px;
   margin-bottom: 5px;
   padding: 0 5px;
   background: #a1bd66;
