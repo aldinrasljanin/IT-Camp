@@ -238,10 +238,22 @@ const products = [
   },
 ];
 
-const adjustPrice = (product) => {
-  const { quantity } = product;
-  if (quantity > 40) product.price *= 0.6;
-  else if (quantity > 20) product.price *= 0.8;
-  return product;
-};
-console.log(products.map(adjustPrice));
+// const adjustPrice = (product) => {
+//   const { quantity } = product;
+//   if (quantity > 40) product.price *= 0.6;
+//   else if (quantity > 20) product.price *= 0.8;  // Prvi Nacin
+//   return product;
+// };
+// console.log(products.map(adjustPrice));
+
+// const checkProduct = (nizObjekata) => {
+//   nizObjekata.map((el) => {
+//     if (el.quantity > 40) {
+//       el.price *= 0.6;
+//     } else if (el.quantity > 20) {     // Drugi Nacin
+//       el.price *= 0.8;
+//     }
+//   });
+//   return nizObjekata;
+// };
+// console.log(checkProduct(products));
