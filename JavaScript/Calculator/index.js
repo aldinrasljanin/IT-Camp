@@ -13,6 +13,8 @@ for (let i = 0; i < buttons.length; i++) {
     let value = e.target.textContent;
     if (value === "=") {
       display.innerText = eval(display.innerText);
+    } else if (value === "AC") {
+      display.innerText = "";
     } else display.innerText = e.target.textContent;
   });
 }
