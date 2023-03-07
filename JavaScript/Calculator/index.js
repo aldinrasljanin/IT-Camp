@@ -6,7 +6,7 @@ console.log(buttons);
 
 console.log(buttons[0]);
 
-const nekaDrugaFunkcija = (value) => {
+const Functions = (value) => {
   if (value === "=") {
     display.innerText = eval(display.innerText);
   } else if (value === "AC") {
@@ -22,7 +22,7 @@ for (let i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", (e) => {
     console.log(e.target.textContent);
     let value = e.target.textContent;
-    nekaDrugaFunkcija(value);
+    Functions(value);
   });
 }
 
