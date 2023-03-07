@@ -246,4 +246,4 @@ const adjustPrice = (prod) => {
 };
 // const adjustedProducts = products.map(adjustPrice);
 // console.log(adjustedProducts);
-console.log(products.map(adjustPrice));
+document.write(products.map(adjustPrice));
