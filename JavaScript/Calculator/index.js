@@ -9,6 +9,7 @@ console.log(buttons[0]);
 for (let i = 0; i < buttons.length; i++) {
   console.log(buttons[0]);
   buttons[i].addEventListener("click", (e) => {
-    console.log(e.target);
+    console.log(e.target.textContent);
+    display.innerText = e.target.textContent;
   });
 }
