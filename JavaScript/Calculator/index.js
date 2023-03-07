@@ -18,8 +18,8 @@ const nekaDrugaFunkcija = (value) => {
   } else prikaz.innerText += value;
 };
 
-for (let i = 0; i < buttoni.length; i++) {
-  buttoni[i].addEventListener("click", (e) => {
+for (let i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener("click", (e) => {
     console.log(e.target.textContent);
     let value = e.target.textContent;
     nekaDrugaFunkcija(value);
