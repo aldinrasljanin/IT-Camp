@@ -237,15 +237,13 @@ const products = [
     quantity: 14,
   },
 ];
-// console.log(products);
 
-const updateProductPrices = (products) => {
-  products.filter((product) => {
-    if (product.quantity > 40) {
-      product.price *= 0.6;
-    } else if (product.quantity > 20) {
-      product.price *= 0.8;
-    }
-  });
+const adjustPrice = (prod) => {
+  const { quantity } = prod;
+  if (quantity > 40) prod.price *= 0.6;
+  else if (quantity > 20) prod.price *= 0.8;
+  return prod;
 };
-console.log(products);
+// const adjustedProducts = products.map(adjustPrice);
+// console.log(adjustedProducts);
+console.log(products.map(adjustPrice));
