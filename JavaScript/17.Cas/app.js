@@ -150,7 +150,7 @@ const array = [3, 6, 10, 82, 93, 105, 42, 28, 52];
 
 const sumOfEvenNumbers = array
   .filter((el) => el % 2 === 0)
-  .reduce((prev, curr) => prev + curr, 0);
+  .reduce((prev, curr) => prev + curr);
 
 console.log(sumOfEvenNumbers);
 
