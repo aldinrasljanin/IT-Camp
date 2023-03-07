@@ -244,6 +244,4 @@ const adjustPrice = (product) => {
   else if (quantity > 20) product.price *= 0.8;
   return product;
 };
-// const adjustedProducts = products.map(adjustPrice);
-// console.log(adjustedProducts);
 console.log(products.map(adjustPrice));
