@@ -7,35 +7,37 @@ const buttons = document.getElementsByClassName("numbers");
 // console.log(buttons[0]);
 
 const Functions = (value) => {
-  const lastChar = display.innerText.slice(-1);
+  const currentValue = display.innerText;
+  const lastChar = currentValue.slice(-1);
+
   if (value === "=") {
-    display.innerText = eval(display.innerText);
+    display.innerText = eval(currentValue);
   } else if (value === "AC") {
     display.innerText = "";
   } else if (value === "C") {
-    display.innerText = display.innerText.slice(0, -1);
+    display.innerText = currentValue.slice(0, -1);
   } else if (value === "+/-") {
-    if (display.innerText.startsWith("-")) {
-      display.innerText = display.innerText.slice(1);
-    } else display.innerText = `-${display.innerText}`;
-  } else if (value === "+") {
-    if (lastChar !== "+") {
-      display.innerText += "+";
+    if (currentValue.startsWith("-")) {
+      display.innerText = currentValue.slice(1);
+    } else {
+      display.innerText = `-${currentValue}`;
     }
-  } else if (value === "-") {
-    if (lastChar !== "-") {
-      display.innerText += "-";
-    }
-  } else if (value === "*") {
-    if (lastChar !== "*") {
-      display.innerText += "*";
-    }
-  } else if (value === "/") {
-    if (lastChar !== "/") {
-      display.innerText += "/";
+  } else if (value === "+" || value === "-" || value === "*" || value === "/") {
+    if (
+      lastChar !== "+" &&
+      lastChar !== "-" &&
+      lastChar !== "*" &&
+      lastChar !== "/" &&
+      currentValue !== ""
+    ) {
+      display.innerText += value;
     }
   } else {
-    display.innerText += value;
+    if (currentValue === "" && value === "-") {
+      display.innerText += "-";
+    } else if (/^[0-9]+$/.test(value)) {
+      display.innerText += value;
+    }
   }
 };
 
