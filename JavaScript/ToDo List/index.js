@@ -37,7 +37,7 @@ function closelist(list) {
   lista.remove();
 }
 
-Add item to list //
+// Add item to list //
 function addItemToList(list) {
   let itemList = list.closest(".list").classList[1];
   let itemValue = prompt(`Add new item to ${itemList.replace(`list__`, ``)}`);
