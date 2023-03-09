@@ -4,6 +4,7 @@ let firstitem;
 let lists = [];
 let items = 0;
 
+// Function for creating name of list and closeing list
 function createList(name) {
   if (
     lists.includes(name.replace(" ", "-")) ||
