@@ -258,7 +258,7 @@
 // };
 // console.log(checkProduct(products));
 
-// 17.Zadatak
+// 16.Zadatak
 // const mockData = [
 //   {
 //     id: 1,
