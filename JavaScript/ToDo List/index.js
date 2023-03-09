@@ -78,6 +78,7 @@ function addItemToList(list) {
   item.innerHTML += menu;
 }
 
+// Open menu
 function openmenu(item, event) {
   let menu = item.querySelector("menu");
   menu.style.display = "none";
