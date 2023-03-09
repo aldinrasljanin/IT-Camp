@@ -11,4 +11,6 @@ a = 10;
 //Nije ispravno zbog arrow funkcije
 pozdrav();
 
-const pozdrav = console.log("Cao");
+const pozdrav = () => {
+  console.log("Cao");
+};
