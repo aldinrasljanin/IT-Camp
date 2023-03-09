@@ -91,7 +91,7 @@ function openmenu(item, event) {
   menu.style.left = x + "px";
   menu.style.top = y - 4 + "px";
 }
-// Rename Items
+// Rename Item
 function renameItem(item) {
   let oldItem = item.closest("ul>li");
   let menu = oldItem.querySelector("menu");
@@ -100,7 +100,7 @@ function renameItem(item) {
   oldItem.textContent = name;
   oldItem.appendChild(menu);
 }
-
+// Delete Item
 function deleteItem(item) {
   let oldItem = item.closest("ul>li");
   oldItem.remove();
