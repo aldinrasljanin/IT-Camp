@@ -106,6 +106,7 @@ function deleteItem(item) {
   items -= 1;
 }
 
+// Function for check items
 function check(item, event) {
   if (item.style.background !== "limegreen") {
     item.style.background = "limegreen";
