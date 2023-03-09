@@ -100,7 +100,7 @@ function renameItem(item) {
   oldItem.textContent = name;
   oldItem.appendChild(menu);
 }
-// Delete Items
+// Delete Item
 function deleteItem(item) {
   let oldItem = item.closest("ul>li");
   oldItem.remove();
