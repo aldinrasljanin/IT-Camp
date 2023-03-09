@@ -49,7 +49,7 @@ function addItemToList(list) {
 
   // context menu from 44 to 106 line of code //
   item.className = `item__${items}`;
-  if (items.length == 0) {
+  if (items.length === 0) {
     firstitem = document.querySelector(".item__0");
     addEventListener("contextMenu", function (e) {
       e.preventDefault();
