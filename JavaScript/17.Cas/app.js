@@ -51,7 +51,7 @@
 //   });
 // };
 
-// 4. Zadatak
+// 5. Zadatak
 // Kvadrirati one brojeve koje imaju index 0,3,5.
 
 // function powNumbers(array) {
