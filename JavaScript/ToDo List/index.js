@@ -47,7 +47,7 @@ function addItemToList(list) {
   <li onclick="deleteItem(this)">Delete</li>
 </menu>`;
 
-  // context menu from 44 to 106 line of code //
+  // Context menu from 44 to 106 line of code //
   item.className = `item__${items}`;
   if (items.length === 0) {
     firstitem = document.querySelector(".item__0");
