@@ -91,7 +91,7 @@ function openmenu(item, event) {
   menu.style.left = x + "px";
   menu.style.top = y - 4 + "px";
 }
-// Rename Item
+// Rename Items
 function renameItem(item) {
   let oldItem = item.closest("ul>li");
   let menu = oldItem.querySelector("menu");
@@ -100,14 +100,14 @@ function renameItem(item) {
   oldItem.textContent = name;
   oldItem.appendChild(menu);
 }
-// Delete Item
+// Delete Items
 function deleteItem(item) {
   let oldItem = item.closest("ul>li");
   oldItem.remove();
   items -= 1;
 }
 
-// Function for check items
+// Function for check items green or red
 function check(item, event) {
   if (item.style.background !== "limegreen") {
     item.style.background = "limegreen";
