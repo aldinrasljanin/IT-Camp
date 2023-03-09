@@ -136,7 +136,7 @@ const watchList = [
 //   (prev, curr) => +prev + +curr / nolanRatings.length
 // );
 
-const mockData = [1, 23, 5645, 767, 657, 455, 34543];
+// const mockData = [1, 23, 5645, 767, 657, 455, 34543];
 // console.log(sum);
 
 // const customMovieFunction = (movieArray) => {
