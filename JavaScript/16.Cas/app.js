@@ -211,10 +211,10 @@ const watchList = [
 
 // console.log("33" * 3);
 
-function reversingNames(name1, name2) {
-  for (let i = name2.length - 1; i >= 0; i--) {
-    if (name1[i]) console.log(name1[i], i);
-    console.log(name2[i], i);
-  }
-}
-reversingNames("nerma", "aldin");
+// function reversingNames(name1, name2) {
+//   for (let i = name2.length - 1; i >= 0; i--) {
+//     if (name1[i]) console.log(name1[i], i);
+//     console.log(name2[i], i);
+//   }
+// }
+// reversingNames("nerma", "aldin");
