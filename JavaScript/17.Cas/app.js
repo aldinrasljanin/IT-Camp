@@ -99,10 +99,10 @@
 
 // 9. Zadatak
 // Napraviti novi niz koji filtrira postojeci i vraca novi sa onim elementima ciji je tip "boolean';.
-const booleans = [true, false, true, false];
+// const booleans = [true, false, true, false];
 
-const filteredBooleans = booleans.filter((item) => typeof item === "boolean");
-console.log(filteredBooleans(booleans));
+// const filteredBooleans = booleans.filter((item) => typeof item === "boolean");
+// console.log(filteredBooleans(booleans));
 
 // 10. Zadatak
 // Preko funkcije napraviti niz koji se sastoji iz parnih brojeva manjih ili jednakih 50 postojeceg niza.
