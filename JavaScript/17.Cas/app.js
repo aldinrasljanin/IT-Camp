@@ -118,7 +118,7 @@ const years = [3, 6, 10, 82, 93, 105, 42, 28, 52, 50, 51, 22, 83];
 
 const averageAge = (yearsArray) =>
   yearsArray.reduce((acc, year) => acc + year, 0) / yearsArray.length;
-
+console.log(years(yearsArray));
 // 12. Zadatak
 // Write a function that converts an array of values from miles to kilometres using the map method.
 // In the end, add the kilometres up in a new variable called "totalDistanceInKilometers"; and
