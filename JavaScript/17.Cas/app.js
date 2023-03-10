@@ -114,11 +114,11 @@
 // Sabrati sve godine tj. elemente niza a nakon toga podeliti sa brojem elemenata.
 // tj. vratiti prosecnu starost godina.
 
-const years = [13, 16, 10, 82, 93, 40, 31, 28, 52, 50, 51, 22, 83];
+// const years = [13, 16, 10, 82, 93, 40, 31, 28, 52, 50, 51, 22, 83];
 
-const averageAge = (yearsArray) =>
-  yearsArray.reduce((acc, year) => acc + year) / yearsArray.length;
-console.log(averageAge(years));
+// const averageAge = (yearsArray) =>
+//   yearsArray.reduce((acc, year) => acc + year) / yearsArray.length;
+// console.log(averageAge(years));
 
 // 12. Zadatak
 // Write a function that converts an array of values from miles to kilometres using the map method.
