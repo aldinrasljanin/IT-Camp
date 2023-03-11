@@ -3,4 +3,12 @@
 // Npr. za "Mama ima momu", dobija se rezultat 5.
 
 const string = "Mama ima momu";
-let counter = 0;
+function checkLetters(string) {
+  let start = 0;
+  for (let i = 0; i < string.length; i++) {
+    if (string[i] === "M" || string[i] === "m") {
+      brojac++;
+    }
+  }
+  return brojac;
+}
