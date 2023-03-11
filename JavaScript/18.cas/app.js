@@ -3,3 +3,4 @@
 // Npr. za "Mama ima momu", dobija se rezultat 5.
 
 const string = "Mama ima momu";
+let counter = 0;
