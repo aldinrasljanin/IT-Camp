@@ -15,4 +15,6 @@
 
 // 2.Zadatak
 // Ispitati da li u unetom stringu ima vise malih ili velikih slova.
-// Slova koja se koriste u strinhu pripadaju iskljucivo engleskoj abecedi.
+// Slova koja se koriste u stringu pripadaju iskljucivo engleskoj abecedi.
+
+("Ako JA SAD ovako PISEM koliko CE MALIH slova DA ima");
