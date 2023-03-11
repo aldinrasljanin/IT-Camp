@@ -17,4 +17,9 @@
 // Ispitati da li u unetom stringu ima vise malih ili velikih slova.
 // Slova koja se koriste u stringu pripadaju iskljucivo engleskoj abecedi.
 
-("Ako JA SAD ovako PISEM koliko CE MALIH slova DA ima");
+// let stringNeki = "Ako JA SAD ovako PISEM koliko CE MALIH slova DA ima";
+// const checkCases = (string) => {
+//   let velikihSlova = 0;
+//   let malihSlova = 0;
+// };
+// for(let i =0; i< string.length;i++)
