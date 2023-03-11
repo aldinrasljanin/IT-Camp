@@ -14,3 +14,15 @@ pozdrav();
 const pozdrav = () => {
   console.log("Cao");
 };
+
+console.log(squareFn(3));
+
+function squareFn(n) {
+  return n * n;
+}
+
+console.log(squareConst(4));
+
+var squareConst = (n) => {
+  return n * n;
+};
