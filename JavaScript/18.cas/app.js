@@ -15,3 +15,4 @@
 
 // 2.Zadatak
 // Ispitati da li u unetom stringu ima vise malih ili velikih slova.
+// Slova koja se koriste u strinhu pripadaju iskljucivo engleskoj abecedi.
