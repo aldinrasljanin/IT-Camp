@@ -12,3 +12,5 @@
 //   }
 //   return start;
 // }
+
+// 2.Zadatak
