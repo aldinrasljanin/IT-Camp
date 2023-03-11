@@ -14,3 +14,4 @@
 // }
 
 // 2.Zadatak
+// Ispitati da li u unetom stringu ima vise malih ili velikih slova.
