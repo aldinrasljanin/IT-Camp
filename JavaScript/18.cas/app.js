@@ -1,6 +1,6 @@
 /// 1.Zadatak ///
 // Prebrojati koliko se puta u unetom stringu pojavljuje slovo "M" ( i veliko i malo).
-// npr. za "Mama ima momu", dobija se rezultat 5.
+// Npr. za "Mama ima momu", dobija se rezultat 5.
 
 // let string = "Mama ima momu";
 
