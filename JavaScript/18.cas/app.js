@@ -13,7 +13,7 @@ const checkLetter = (someString) => {
     }
   }
   return numberMs;
-console.log(checkLetter(string));
+// console.log(checkLetter(string));
 
 // 2.Zadatak
 // Ispitati da li u unetom stringu ima vise malih ili velikih slova.
