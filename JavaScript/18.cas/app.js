@@ -16,7 +16,7 @@
 // };
 // console.log(checkLetter(string));
 
-// 2.Zadatak
+/// 2.Zadatak ///
 // Ispitati da li u unetom stringu ima vise malih ili velikih slova.
 // Slova koja se koriste u stringu pripadaju iskljucivo engleskoj abecedi.
 
