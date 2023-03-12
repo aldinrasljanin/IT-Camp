@@ -36,4 +36,4 @@
 //   return `Malih slova ima ${malaSlova}, a velikih ${velikaSlova}`;
 // };
 
-console.log(checkCases(stringNeki));
+// console.log(checkCases(stringNeki));
