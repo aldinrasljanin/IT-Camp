@@ -23,7 +23,7 @@ console.log(checkLetter(string));
 let stringNeki = "Ako JA SAD ovako PISEM koliko CE MALIH slova DA ima";
 
 const checkCases = (string) => {
-  let malaSlova = 0; // pocetna vrednost brojaca malih slova
+  let malaSlova = 0; // pocetna vrednost brojanja malih slova
   let velikaSlova = 0; // pocetna vrednost brojaca velikih slova
 
   for (let i = 0; i < string.length; i++) {
