@@ -49,3 +49,8 @@
   border: 1px solid #ccc;
   text-align: center;
 }
+
+/* Styling for the days of the previous and next months */
+.calendar table tbody td.other-month {
+  color: #ccc;
+}
