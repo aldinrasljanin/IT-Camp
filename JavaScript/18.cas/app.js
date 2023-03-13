@@ -2,19 +2,19 @@
 // Prebrojati koliko se puta u unetom stringu pojavljuje slovo "M" ( i veliko i malo).
 // npr. za "Mama ima momu", dobija se rezultat 5.
 
-// let string = "Mama ima momu";
+let string = "Mama ima momu";
 
-// const checkLetter = (someString) => {
-//   let numberMs = 0;
-//   for (let m in someString) {
-//     // console.log(someString[m]);
-//     if (someString[m] === "m" || someString[m] === "M") {
-//       numberMs += 1;
-//     }
-//   }
-//   return numberMs;
-// };
-// console.log(checkLetter(string));
+const checkLetter = (someString) => {
+  let numberMs = 0;
+  for (let m in someString) {
+    // console.log(someString[m]);
+    if (someString[m] === "m" || someString[m] === "M") {
+      numberMs += 1;
+    }
+  }
+  return numberMs;
+};
+console.log(checkLetter(string));
 
 /// 2.Zadatak ///
 // Ispitati da li u unetom stringu ima vise malih ili velikih slova.
