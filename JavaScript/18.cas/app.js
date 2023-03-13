@@ -34,7 +34,7 @@ const checkCases = (string) => {
     }
   }
 
-  return `Malih slova ima ${malaSlova}, a velikih ${velikaSlova}`;
+  return `Malih slova ima ${malaSlova}, a velikih ${velikaSlova}`; // vraca nam koliko ima malih i velikih slova M,m
 };
 
 console.log(checkCases(stringNeki));
