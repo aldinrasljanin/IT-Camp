@@ -88,3 +88,18 @@ nextMonthButton.addEventListener("click", () => {
   currentDate = new Date(currentYear, currentMonth, 1);
   renderCalendar();
 });
+
+// Create a new date object
+const date1 = new Date("2022-12-31");
+
+// Get the current date
+// const currentDate = new Date();
+
+// Compare the two dates
+if (date1 > currentDate) {
+  console.log("date1 is in the future");
+} else if (date1 < currentDate) {
+  console.log("date1 is in the past");
+} else {
+  console.log("date1 is today");
+}
