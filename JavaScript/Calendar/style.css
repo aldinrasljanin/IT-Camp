@@ -54,3 +54,9 @@
 .calendar table tbody td.other-month {
   color: #ccc;
 }
+
+/* Styling for the selected day */
+.calendar table tbody td.selected {
+  background-color: #007bff;
+  color: #fff;
+}
