@@ -12,3 +12,11 @@
   align-items: center;
   margin-bottom: 10px;
 }
+
+/* Styling for the month navigation buttons */
+.calendar .haed button {
+  font-size: 1.5rem;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+}
