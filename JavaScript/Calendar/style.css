@@ -42,3 +42,10 @@
   border: 1px solid #ccc;
   text-align: center;
 }
+
+/* Styling for the table body */
+.calendar table tbody td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
