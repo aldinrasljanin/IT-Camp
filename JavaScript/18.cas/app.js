@@ -12,7 +12,7 @@ const checkLetter = (someString) => {
       numberMs += 1;
     }
   }
-  return numberMs;
+  return numberMs; // vraca nam datu funkciju
 };
 console.log(checkLetter(string));
 
