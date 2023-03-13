@@ -28,3 +28,9 @@
   text-transform: uppercase;
   margin: 0;
 }
+
+/* Styling for the table */
+.calendar table {
+  width: 100%;
+  border-collapse: collapse;
+}
