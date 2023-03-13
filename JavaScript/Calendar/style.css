@@ -4,3 +4,11 @@
   margin: 0 auto;
   font-family: Arial, sans-serif;
 }
+
+/* Styling for the calendar header */
+.calendar .haed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
