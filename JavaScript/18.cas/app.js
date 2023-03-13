@@ -9,6 +9,7 @@ const checkLetter = (someString) => {
   for (let m in someString) {
     // console.log(someString[m]);
     if (someString[m] === "m" || someString[m] === "M") {
+      // uslov vrsenja funkcije
       numberMs += 1;
     }
   }
