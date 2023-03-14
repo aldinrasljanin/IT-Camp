@@ -10,6 +10,9 @@
 //   teacher: "Aldin",
 // };
 
+// console.log(classRoom);
+// console.log(classRoom.hasOwnProperty("ucenik"));
+
 // const createNewObject = (name, lastName) => {
 //   let newObject = {};
 //   newObject.name = name;
