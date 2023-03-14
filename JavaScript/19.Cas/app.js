@@ -35,12 +35,12 @@ class Animal {
   name = "Aldin";
   age = 21;
 
-  // constructor(ime, godine, owner) {
-  //   this.name = ime;
-  //   this.age = godine;
-  //   this.owner = owner;
-  //   this.lastname = owner;
-  // }
+  constructor(ime, godine, owner) {
+    this.name = ime;
+    this.age = godine;
+    this.owner = owner;
+    this.lastname = owner;
+  }
   writeAges() {
     return this.age;
   }
