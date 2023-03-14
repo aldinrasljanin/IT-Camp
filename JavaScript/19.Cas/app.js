@@ -113,4 +113,8 @@ let skola = new School(30);
 class Shop {
   #profit = 30;
   proizvod = 40;
+
+  getProfit() {
+    return this.#profit;
+  }
 }
