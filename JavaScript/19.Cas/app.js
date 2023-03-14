@@ -122,3 +122,5 @@ const prodavnica = new Shop();
 console.log(prodavnica);
 // console.log(prodavnica.proizvod);
 // console.log(prodavnica.);
+
+let noviProfit = prodavnica.getProfit();
