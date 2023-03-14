@@ -30,20 +30,20 @@
 // super() // predstavlja extand of Animal
 //nasljedjivanje, enkapsulacija, abstrakcija, polimorfizam
 
-class bus {
-  seats;
+// class bus {
+//   seats;
 
-  constructor(sedista) {
-    this.seats = sedista;
+//   constructor(sedista) {
+//     this.seats = sedista;
 
-    setSeats();
-    {
-      return this.seats;
-    }
-    getSeats(brojSedista);
-    {
-      this.seats = sedista;
-    }
-  }
-}
-console.log(bus);
+//     setSeats();
+//     {
+//       return this.seats;
+//     }
+//     getSeats(brojSedista);
+//     {
+//       this.seats = sedista;
+//     }
+//   }
+// }
+// console.log(setSeats);
