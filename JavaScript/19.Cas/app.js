@@ -118,3 +118,7 @@ class Shop {
     return this.#profit;
   }
 }
+const prodavnica = new Shop();
+console.log(prodavnica);
+// console.log(prodavnica.proizvod);
+// console.log(prodavnica.);
