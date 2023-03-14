@@ -5,9 +5,10 @@
 //   lastname: Rasljanin,
 // });
 
-const username = [
-  {
-    name: Aldin,
-    lastname: Rasljanin,
-  },
-];
+const createNewObject = (name, lastName) => {
+  let newObject = {};
+  newObject.name = name;
+  newObject.lastName = lastName;
+  return newObject;
+};
+console.log(createNewObject("Aldin", "Rasljanin"));
