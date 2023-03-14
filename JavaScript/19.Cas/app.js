@@ -29,3 +29,21 @@
 // console.log(someAnimal);
 // super() // predstavlja extand of Animal
 //nasljedjivanje, enkapsulacija, abstrakcija, polimorfizam
+
+class bus {
+  seats;
+
+  constructor(sedista) {
+    this.seats = sedista;
+
+    setSeats();
+    {
+      return this.seats;
+    }
+    getSeats(brojSedista);
+    {
+      this.seats = sedista;
+    }
+  }
+}
+console.log(bus);
