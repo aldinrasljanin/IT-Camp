@@ -31,16 +31,27 @@
 // console.log(person);
 // console.log(`cao ${person.name}`);
 
-// class Animal {
-//     name = "Aldin";
-//     age = 21;
+class Animal {
+  name = "Aldin";
+  age = 21;
 
-// constructor(ime, godine, owner) {
-//   this.name = ime;
-//   this.age = godine;
-//   this.owner = owner;
-//   this.lastname = owner;
-// }
+  // constructor(ime, godine, owner) {
+  //   this.name = ime;
+  //   this.age = godine;
+  //   this.owner = owner;
+  //   this.lastname = owner;
+  // }
+  writeAges() {
+    return this.age;
+  }
+
+  nestoTrece(godine) {
+    this.age = godine;
+  }
+}
+
+// const someAnimal = new Animal("aaaa", 30, "Aldin");
+const someAnimal = new Animal();
 // klasa sablon za pravljenje klase, imaju svoj properties
 // const someAnimal = new Animal("Lesi", 30);
 
