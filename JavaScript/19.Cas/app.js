@@ -22,3 +22,7 @@ class Animal {
     this.age = godine;
   }
 }
+
+const someAnimal = new Animal("Lesi", 30);
+
+console.log(someAnimal);
