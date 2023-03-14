@@ -52,6 +52,12 @@ class Animal {
 
 // const someAnimal = new Animal("aaaa", 30, "Aldin");
 const someAnimal = new Animal();
+// console.log(someAnimal);
+// someAnimal.writeAges();
+// someAnimal.nestoTrece(52);
+// someAnimal.writeAges();
+
+// console.log(someAnimal);
 // klasa sablon za pravljenje klase, imaju svoj properties
 // const someAnimal = new Animal("Lesi", 30);
 
