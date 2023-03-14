@@ -124,3 +124,4 @@ console.log(prodavnica);
 // console.log(prodavnica.);
 
 let noviProfit = prodavnica.getProfit();
+console.log(noviProfit);
