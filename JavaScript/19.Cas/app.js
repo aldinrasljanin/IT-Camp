@@ -27,3 +27,4 @@ class Animal {
 const someAnimal = new Animal("Lesi", 30);
 
 console.log(someAnimal);
+// super() // predstavlja extand of Animal
