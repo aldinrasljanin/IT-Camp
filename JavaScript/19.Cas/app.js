@@ -109,3 +109,8 @@ let skola = new School(30);
 //   }
 // }
 // console.log(setSeats);
+
+class Shop {
+  #profit = 30;
+  proizvod = 40;
+}
