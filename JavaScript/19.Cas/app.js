@@ -62,6 +62,15 @@ const someAnimal = new Animal();
 // const someAnimal = new Animal("Lesi", 30);
 
 // console.log(someAnimal);
+
+class Dog extends Animal {
+  bark;
+
+  constructor(arg1) {
+    super();
+    this.bark = arg1;
+  }
+}
 // super() // predstavlja extand of Animal
 //nasljedjivanje, enkapsulacija, abstrakcija, polimorfizam
 
