@@ -12,3 +12,8 @@
 //   return newObject;
 // };
 // console.log(createNewObject("Aldin", "Rasljanin"));
+
+class Animal {
+  name;
+  age;
+}
