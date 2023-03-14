@@ -5,6 +5,11 @@
 //   lastname: Rasljanin,
 // });
 
+// let classRoom = {
+//   numberOfPeople: 6,
+//   teacher: "Aldin",
+// };
+
 // const createNewObject = (name, lastName) => {
 //   let newObject = {};
 //   newObject.name = name;
