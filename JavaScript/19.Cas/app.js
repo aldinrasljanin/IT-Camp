@@ -24,8 +24,8 @@ class Animal {
   }
 }
 // klasa sablon za pravljenje klase, imaju svoj properti
-const someAnimal = new Animal("Lesi", 30);
+// const someAnimal = new Animal("Lesi", 30);
 
-console.log(someAnimal);
+// console.log(someAnimal);
 // super() // predstavlja extand of Animal
 //nasljedjivanje, enkapsulacija, abstrakcija, polimorfizam
