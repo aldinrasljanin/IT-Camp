@@ -32,16 +32,16 @@
 // console.log(`cao ${person.name}`);
 
 // class Animal {
-//   name;
-//   age;
+//     name = "Aldin";
+//     age = 21;
 
-//   constructor(ime, godine) {
-//     // moze da pravi i svoje propertije
-//     this.name = ime;
-//     this.age = godine;
-//   }
+// constructor(ime, godine, owner) {
+//   this.name = ime;
+//   this.age = godine;
+//   this.owner = owner;
+//   this.lastname = owner;
 // }
-// klasa sablon za pravljenje klase, imaju svoj properti
+// klasa sablon za pravljenje klase, imaju svoj properties
 // const someAnimal = new Animal("Lesi", 30);
 
 // console.log(someAnimal);
