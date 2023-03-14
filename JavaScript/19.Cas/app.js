@@ -86,6 +86,12 @@ class School {
     this.students = students;
   }
 }
+
+let skola = new School(30);
+// console.log(skola);
+// console.log(School.name);
+// School.nekaFun();
+
 // class bus {
 //   seats;
 
