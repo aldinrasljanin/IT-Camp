@@ -16,4 +16,9 @@
 class Animal {
   name;
   age;
+
+  constructor(ime, godine) {
+    this.name = ime;
+    this.age = godine;
+  }
 }
