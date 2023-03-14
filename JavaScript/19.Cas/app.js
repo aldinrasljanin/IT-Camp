@@ -124,5 +124,5 @@ console.log(prodavnica);
 // console.log(prodavnica.proizvod);
 // console.log(prodavnica.);
 
-let noviProfit = prodavnica.getProfit();
+let noviProfit = prodavnica.getProfit(); // Function for get profit
 console.log(noviProfit);
