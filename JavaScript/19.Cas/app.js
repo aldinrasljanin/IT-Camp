@@ -110,6 +110,7 @@ let skola = new School(30);
 // }
 // console.log(setSeats);
 
+// Exemple for private class
 class Shop {
   #profit = 30;
   proizvod = 40;
