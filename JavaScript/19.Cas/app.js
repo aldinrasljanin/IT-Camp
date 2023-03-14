@@ -71,6 +71,10 @@ class Dog extends Animal {
     this.bark = arg1;
   }
 }
+
+const pas = new Dog("aw aw");
+// console.log(pas.writeAges());
+
 // super() // predstavlja extand of Animal
 //nasljedjivanje, enkapsulacija, abstrakcija, polimorfizam
 
