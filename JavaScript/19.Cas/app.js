@@ -14,12 +14,22 @@
 // console.log(classRoom.hasOwnProperty("ucenik"));
 
 // const createNewObject = (name, lastName) => {
-//   let newObject = {};
-//   newObject.name = name;
-//   newObject.lastName = lastName;
+//   // let newObject = {};
+//   // newObject.name = name;
+//   // newObject.lastName = lastName;
+//   const newObject = {
+//     name: name,
+//     lastName,
+//   };
 //   return newObject;
 // };
-// console.log(createNewObject("Aldin", "Rasljanin"));
+
+// console.log(createNewObject("Aldin", "Halilovic"));
+
+// let person = createNewObject("Aldin", "Halilovic");
+
+// console.log(person);
+// console.log(`cao ${person.name}`);
 
 // class Animal {
 //   name;
