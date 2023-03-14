@@ -67,16 +67,20 @@ class Dog extends Animal {
   bark;
 
   constructor(arg1) {
-    super();
+    super(); // super() // predstavlja extand of Animal    
     this.bark = arg1;
   }
 }
 
 const pas = new Dog("aw aw");
 // console.log(pas.writeAges());
-
-// super() // predstavlja extand of Animal
 //nasljedjivanje, enkapsulacija, abstrakcija, polimorfizam
+
+class School {
+    static name = "NIT";
+    static nekaFun() {
+      console.log("staticna vrednost");
+    }
 
 // class bus {
 //   seats;
