@@ -22,7 +22,7 @@ class Animal {
     this.age = godine;
   }
 }
-
+// klasa sablon za pravljenje klase
 const someAnimal = new Animal("Lesi", 30);
 
 console.log(someAnimal);
