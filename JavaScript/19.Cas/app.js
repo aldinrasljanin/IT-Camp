@@ -18,11 +18,12 @@ class Animal {
   age;
 
   constructor(ime, godine) {
+    // moze da pravi i svoje propertije
     this.name = ime;
     this.age = godine;
   }
 }
-// klasa sablon za pravljenje klase
+// klasa sablon za pravljenje klase, imaju svoj properti
 const someAnimal = new Animal("Lesi", 30);
 
 console.log(someAnimal);
