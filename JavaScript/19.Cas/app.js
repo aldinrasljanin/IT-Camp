@@ -67,7 +67,7 @@ class Dog extends Animal {
   bark;
 
   constructor(arg1) {
-    super(); // super() // predstavlja extand of Animal    
+    super(); // super() // predstavlja extand of Animal
     this.bark = arg1;
   }
 }
@@ -77,11 +77,15 @@ const pas = new Dog("aw aw");
 //nasljedjivanje, enkapsulacija, abstrakcija, polimorfizam
 
 class School {
-    static name = "NIT";
-    static nekaFun() {
-      console.log("staticna vrednost");
-    }
+  static name = "NIT";
+  static nekaFun() {
+    console.log("staticna vrednost");
+  }
 
+  constructor(students) {
+    this.students = students;
+  }
+}
 // class bus {
 //   seats;
 
