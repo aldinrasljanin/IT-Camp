@@ -76,6 +76,7 @@ const pas = new Dog("aw aw");
 // console.log(pas.writeAges());
 //nasljedjivanje, enkapsulacija, abstrakcija, polimorfizam
 
+//Example for static name
 class School {
   static name = "NIT";
   static nekaFun() {
