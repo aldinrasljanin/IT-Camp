@@ -93,7 +93,7 @@ let skola = new School(30);
 // console.log(School.name);
 // School.nekaFun();
 
-// Exemple for getting seats in bus
+// Example for getting seats in bus //
 // class bus {
 //   seats;
 
