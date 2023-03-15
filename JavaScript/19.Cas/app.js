@@ -119,7 +119,7 @@ class Shop {
     return this.#profit;
   }
 }
-const prodavnica = new Shop();
+const prodavnica = new Shop(); // Call for function
 console.log(prodavnica);
 // console.log(prodavnica.proizvod);
 // console.log(prodavnica.);
