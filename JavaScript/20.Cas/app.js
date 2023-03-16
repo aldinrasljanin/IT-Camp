@@ -1,8 +1,23 @@
 console.log("Exercise for javascript classes");
 
-// poc brz 120,f-ja za ubrzanje za 20 kad kaze uspori smanji brz za 20 i kad ukoci da smnanji brz na 0
+// pocetna brzina 120,funkcija za ubrzanje 20 kad kaze uspori smanji brzina za 10 i kad ukoci da brzina bude 0
 // clg kada se pozove bilo koja da clga i f-ju i brz
 class Auto {
   brand;
   speed;
+
+  constructor(brand, speed) {
+    this.brand = brand;
+    this.speed = speed;
+  }
+
+  ubrzaj() {
+    this.speed += 20;
+  }
+  uspori() {
+    this.speed -= 10;
+  }
+  ukoci() {
+    this.speed = 0;
+  }
 }
