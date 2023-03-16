@@ -20,7 +20,7 @@ class Auto {
     this.speed = 0;
   }
 
-  getSpeed(speed) {
-    this.speed = speed;
+  getSpeed() {
+    return this.speed;
   }
 }
