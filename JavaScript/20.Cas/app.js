@@ -51,3 +51,12 @@ class Bus extends Car {
 const newBus = new Bus("lasta");
 console.log(newBus);
 console.log(newBus.getSpeed());
+newBus.fastUp();
+newBus.fastUp();
+newBus.fastUp();
+newBus.fastUp();
+newBus.fastUp();
+newBus.fastUp();
+newBus.fastUp();
+newBus.slowDown();
+console.log(newBus.getSpeed());
