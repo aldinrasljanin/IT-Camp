@@ -10,6 +10,10 @@ class Auto {
     this.brand = brandName;
   }
 
+  getSpeed() {
+    return this.speed;
+  }
+
   ubrzaj() {
     this.speed += 20;
   }
@@ -18,9 +22,5 @@ class Auto {
   }
   ukoci() {
     this.speed = 0;
-  }
-
-  getSpeed() {
-    return this.speed;
   }
 }
