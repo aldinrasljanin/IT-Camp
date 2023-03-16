@@ -17,7 +17,7 @@ class Auto {
   fastUp() {
     this.speed += 20;
   }
-  uspori() {
+  slowDown() {
     this.speed -= 10;
   }
   ukoci() {
