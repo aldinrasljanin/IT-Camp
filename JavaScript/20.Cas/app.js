@@ -28,5 +28,6 @@ class Car {
 }
 
 const myNewCar = new Car("Audi");
-
-console.log(myNewCar);
+// console.log(myNewCar);
+// console.log(myNewCar.speed);
+// console.log(myNewCar);
