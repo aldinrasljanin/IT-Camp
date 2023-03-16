@@ -27,4 +27,4 @@ class Car {
   }
 }
 
-const myNewCar = new Car();
+const myNewCar = new Car("Audi");
