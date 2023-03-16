@@ -17,9 +17,11 @@ class Auto {
   fastUp() {
     this.speed += 20;
   }
+
   slowDown() {
     this.speed -= 10;
   }
+
   stop() {
     this.speed = 0;
   }
