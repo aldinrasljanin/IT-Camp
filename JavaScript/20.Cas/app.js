@@ -31,3 +31,5 @@ const myNewCar = new Car("Audi");
 // console.log(myNewCar);
 // console.log(myNewCar.speed);
 console.log(myNewCar.getSpeed());
+myNewCar.fastUp();
+console.log(myNewCar.getSpeed());
