@@ -28,3 +28,5 @@ class Car {
 }
 
 const myNewCar = new Car("Audi");
+
+console.log(myNewCar);
