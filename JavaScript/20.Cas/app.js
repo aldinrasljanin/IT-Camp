@@ -25,4 +25,3 @@ class Auto {
     this.speed = speed;
   }
 }
-console.log(ubrzaj);
