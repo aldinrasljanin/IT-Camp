@@ -60,3 +60,5 @@ newBus.fastUp();
 newBus.fastUp();
 newBus.slowDown();
 console.log(newBus.getSpeed());
+newBus.stop();
+console.log(newBus.getSpeed());
