@@ -20,4 +20,9 @@ class Auto {
   ukoci() {
     this.speed = 0;
   }
+
+  getSpeed(speed) {
+    this.speed = speed;
+  }
 }
+console.log(ubrzaj);
