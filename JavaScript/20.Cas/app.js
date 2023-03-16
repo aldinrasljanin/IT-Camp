@@ -6,8 +6,8 @@ class Auto {
   brand;
   speed = 120;
 
-  constructor(brand, speed) {
-    this.brand = brand;
+  constructor(brandName) {
+    this.brand = brandName;
   }
 
   ubrzaj() {
