@@ -27,7 +27,7 @@ class Car {
   }
 }
 
-// const myNewCar = new Car("Audi");
+const myNewCar = new Car("Audi");
 // console.log(myNewCar.getSpeed());
 // myNewCar.fastUp();
 // console.log(myNewCar.getSpeed());
@@ -37,3 +37,16 @@ class Car {
 // console.log(myNewCar.getSpeed());
 // myNewCar.fastUp();
 // console.log(myNewCar.getSpeed());
+
+myNewCar.fastUp();
+
+class Bus extends Car {
+  seats = 50;
+
+  constructor(brand) {
+    super(brand);
+  }
+}
+
+const newBus = new Bus("lasta");
+console.log(newBus);
