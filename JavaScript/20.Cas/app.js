@@ -4,11 +4,10 @@ console.log("Exercise for javascript classes");
 // clg kada se pozove bilo koja da clga i f-ju i brz
 class Auto {
   brand;
-  speed;
+  speed = 120;
 
   constructor(brand, speed) {
     this.brand = brand;
-    this.speed = speed;
   }
 
   ubrzaj() {
