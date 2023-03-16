@@ -4,30 +4,30 @@ console.log("Exercise for javascript classes");
 // clg kada se pozove bilo koja da clga i f-ju i brz
 class Car {
   brand;
-  speed = 120;
+  #speed = 120;
 
   constructor(brandName) {
     this.brand = brandName;
   }
 
   getSpeed() {
-    return this.speed;
+    return this.#speed;
   }
 
   fastUp() {
-    this.speed += 20;
+    this.#speed += 20;
   }
 
   slowDown() {
-    this.speed -= 10;
+    this.#speed -= 10;
   }
 
   stop() {
-    this.speed = 0;
+    this.#speed = 0;
   }
 }
 
 const myNewCar = new Car("Audi");
 // console.log(myNewCar);
 // console.log(myNewCar.speed);
-// console.log(myNewCar);
+console.log(myNewCar.getSpeed());
