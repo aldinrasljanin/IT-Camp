@@ -38,7 +38,7 @@ const myNewCar = new Car("Audi");
 // myNewCar.fastUp();
 // console.log(myNewCar.getSpeed());
 
-myNewCar.fastUp();
+// myNewCar.fastUp();
 
 class Bus extends Car {
   seats = 50;
