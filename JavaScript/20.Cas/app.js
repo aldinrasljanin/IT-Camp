@@ -14,7 +14,7 @@ class Auto {
     return this.speed;
   }
 
-  ubrzaj() {
+  fastUp() {
     this.speed += 20;
   }
   uspori() {
