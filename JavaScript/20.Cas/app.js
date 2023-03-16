@@ -20,7 +20,7 @@ class Auto {
   slowDown() {
     this.speed -= 10;
   }
-  ukoci() {
+  stop() {
     this.speed = 0;
   }
 }
