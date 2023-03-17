@@ -114,7 +114,7 @@ let skola = new School(30);
 
 // Example for private class //
 class Shop {
-  #profit = 30;
+  #profit = 30; // To
   proizvod = 40;
 
   getProfit() {
