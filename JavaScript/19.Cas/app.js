@@ -77,7 +77,7 @@ const pas = new Dog("aw aw");
 // nasljedjivanje - jeste mogucnost da kreiramo drugu klasu koja ce imati sve sto ima i prva klasa
 // enkapsulacija - zatvaranje funkcije kojoj se jedino moze pristupiti pomocu gettera
 // abstrakcija - jeste pojam kojeg ne zanima kako smo inicializovali vec kako pozivamo funkciju
-// polimorfizam
+// polimorfizam - označava da se osnovne klase i njihove izvedene klase u određenim okolnostima mogu koristiti istovremeno
 
 // Example for static name //
 class School {
