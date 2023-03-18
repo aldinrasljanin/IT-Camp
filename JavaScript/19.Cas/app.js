@@ -76,7 +76,7 @@ const pas = new Dog("aw aw");
 // console.log(pas.writeAges());
 // nasljedjivanje -
 // enkapsulacija - zatvaranje funkcije kojoj se jedino moze pristupiti pomocu gettera
-// abstrakcija - jeste mogucnost
+// abstrakcija - jeste mogucnost da kreiramo
 // polimorfizam
 
 // Example for static name //
