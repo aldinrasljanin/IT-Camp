@@ -76,7 +76,7 @@ const pas = new Dog("aw aw");
 // console.log(pas.writeAges());
 // nasljedjivanje - jeste mogucnost da kreiramo drugu klasu koja ce imati sve sto ima i prva klasa
 // enkapsulacija - zatvaranje funkcije kojoj se jedino moze pristupiti pomocu gettera
-// abstrakcija - jeste mogucnost da kreiramo drugu klasu koja ce imati sve sto ima i prva klasa
+// abstrakcija - jeste pojam kojeg ne zanima kako smo inicializovali vec kako
 // polimorfizam
 
 // Example for static name //
