@@ -75,7 +75,7 @@ class Dog extends Animal {
 const pas = new Dog("aw aw");
 // console.log(pas.writeAges());
 // nasljedjivanje -
-// enkapsulacija - zatvaranje funkcije
+// enkapsulacija - zatvaranje funkcije kojoj se jedino moze pristupiti
 // abstrakcija,
 // polimorfizam
 
