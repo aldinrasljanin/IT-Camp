@@ -74,7 +74,10 @@ class Dog extends Animal {
 
 const pas = new Dog("aw aw");
 // console.log(pas.writeAges());
-//nasljedjivanje, enkapsulacija, abstrakcija, polimorfizam
+// nasljedjivanje
+// enkapsulacija
+// abstrakcija,
+// polimorfizam
 
 // Example for static name //
 class School {
@@ -114,7 +117,7 @@ let skola = new School(30);
 
 // Example for private class //
 class Shop {
-  #profit = 30; // To get this argument we have to create getter for our argument
+  #profit = 30; // To get this argument we have to create getter for our argumente
   proizvod = 40;
 
   getProfit() {
