@@ -74,7 +74,7 @@ class Dog extends Animal {
 
 const pas = new Dog("aw aw");
 // console.log(pas.writeAges());
-// nasljedjivanje -
+// nasljedjivanje - jeste mogucnost da kreiramo drugu klasu koja ce imati sve sto ima i prva klasa
 // enkapsulacija - zatvaranje funkcije kojoj se jedino moze pristupiti pomocu gettera
 // abstrakcija - jeste mogucnost da kreiramo drugu klasu koja ce imati sve sto ima i prva klasa
 // polimorfizam
