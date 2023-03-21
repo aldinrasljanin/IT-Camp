@@ -18,6 +18,12 @@
 //   numOne();
 // }
 
+// function numThree() {
+//   console.log(5);
+//   numTwo();
+//   console.log(3);
+// }
+
 // Callstack last in first out
 // Callback que first in first out
 
