@@ -32,6 +32,10 @@
 
 // numFive();
 
+// function sayMyName(name) {
+//   console.log("Moje ime je " + name);
+// }
+
 // Callstack last in first out
 // Callback que first in first out
 
