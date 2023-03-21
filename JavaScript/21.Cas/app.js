@@ -10,3 +10,4 @@
 // console.log(10);
 // poslednja koja udje u callstack prva izlazi
 // promise za sledeci cas
+//callback que first in first out
