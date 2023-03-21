@@ -10,4 +10,4 @@
 // console.log(10);
 // promise za sledeci cas
 // callstack last in first out
-//callback que first in first out
+// callback que first in first out
