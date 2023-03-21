@@ -8,6 +8,7 @@
 // console.log(8);
 // console.log(9);
 // console.log(10);
-// promise za sledeci cas
 // Callstack last in first out
 // Callback que first in first out
+
+// promise za sledeci cas
