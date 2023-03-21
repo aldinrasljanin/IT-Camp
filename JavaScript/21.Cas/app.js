@@ -36,6 +36,10 @@
 //   console.log("Moje ime je " + name);
 // }
 
+// const nekaFunkcija = () => {
+//   const myName = "aldin";
+//   sayMyName(myName);
+// };
 // Callstack last in first out
 // Callback que first in first out
 
