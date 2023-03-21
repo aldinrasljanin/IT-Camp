@@ -9,5 +9,5 @@
 // console.log(9);
 // console.log(10);
 // promise za sledeci cas
-// callstack last in first out
-// callback que first in first out
+// Callstack last in first out
+// Callback que first in first out
