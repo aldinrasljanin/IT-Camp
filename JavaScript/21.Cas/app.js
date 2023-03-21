@@ -24,6 +24,12 @@
 //   console.log(3);
 // }
 
+// function numFive() {
+//   console.log("first");
+//   numThree();
+//   console.log("a");
+// }
+
 // Callstack last in first out
 // Callback que first in first out
 
