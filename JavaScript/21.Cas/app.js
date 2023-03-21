@@ -49,48 +49,48 @@
 // nekaFunkcija();
 
 //Third Example
-function time() {
-  setTimeout(() => {
-    console.log("nesto");
-  }, 1000);
-}
+// function time() {
+//   setTimeout(() => {
+//     console.log("nesto");
+//   }, 1000);
+// }
 
-function one() {
-  console.log(1);
-}
+// function one() {
+//   console.log(1);
+// }
 
-function two() {
-  setTimeout(() => {
-    console.log("bilo sta");
-  }, 2);
-}
+// function two() {
+//   setTimeout(() => {
+//     console.log("bilo sta");
+//   }, 2);
+// }
 
-function three() {
-  setTimeout(() => {
-    console.log(3);
-  }, 1);
-}
+// function three() {
+//   setTimeout(() => {
+//     console.log(3);
+//   }, 1);
+// }
 
-function neka() {
-  console.log("imas, nemas");
-}
+// function neka() {
+//   console.log("imas, nemas");
+// }
 
-console.log(2);
-console.log(2);
-console.log(2);
-two();
-console.log(2);
-console.log(2);
-console.log(2);
-console.log(2);
-console.log(2);
-console.log(2);
-console.log(2);
-console.log(2);
-console.log(2);
-console.log(2);
-console.log(2);
-console.log(2);
-console.log(2);
+// console.log(2);
+// console.log(2);
+// console.log(2);
+// two();
+// console.log(2);
+// console.log(2);
+// console.log(2);
+// console.log(2);
+// console.log(2);
+// console.log(2);
+// console.log(2);
+// console.log(2);
+// console.log(2);
+// console.log(2);
+// console.log(2);
+// console.log(2);
+// console.log(2);
 
 // promise za sledeci cas
