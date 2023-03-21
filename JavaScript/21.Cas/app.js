@@ -30,6 +30,8 @@
 //   console.log("a");
 // }
 
+// numFive();
+
 // Callstack last in first out
 // Callback que first in first out
 
