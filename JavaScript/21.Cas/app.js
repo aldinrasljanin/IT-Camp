@@ -48,6 +48,7 @@
 
 // nekaFunkcija();
 
+//Third Example
 function time() {
   setTimeout(() => {
     console.log("nesto");
