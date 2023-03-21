@@ -53,6 +53,12 @@ function one() {
   console.log(1);
 }
 
+function two() {
+  setTimeout(() => {
+    console.log("bilo sta");
+  }, 2);
+}
+
 // Callstack last in first out
 // Callback que first in first out
 
