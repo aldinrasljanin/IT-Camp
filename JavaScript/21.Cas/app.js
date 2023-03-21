@@ -12,6 +12,7 @@
 // Callstack last in first out
 // Callback que first in first out
 
+// First Example
 // function numOne() {
 //   console.log(1);
 // }
