@@ -43,6 +43,12 @@
 
 // nekaFunkcija();
 
+function time() {
+  setTimeout(() => {
+    console.log("nesto");
+  }, 1000);
+}
+
 // Callstack last in first out
 // Callback que first in first out
 
