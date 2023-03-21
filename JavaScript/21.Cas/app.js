@@ -9,8 +9,8 @@
 // console.log(9);
 // console.log(10);
 
-// Callstack last in first out
-// Callback que first in first out
+// Callstack: last in first out
+// Callback que: first in first out
 
 // First Example
 // function numOne() {
