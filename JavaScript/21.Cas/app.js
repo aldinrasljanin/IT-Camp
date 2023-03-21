@@ -36,6 +36,7 @@
 
 // numFive();
 
+// Second Example
 // function sayMyName(name) {
 //   console.log("Moje ime je " + name);
 // }
