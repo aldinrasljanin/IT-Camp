@@ -69,6 +69,24 @@ function neka() {
   console.log("imas, nemas");
 }
 
+console.log(2);
+console.log(2);
+console.log(2);
+two();
+console.log(2);
+console.log(2);
+console.log(2);
+console.log(2);
+console.log(2);
+console.log(2);
+console.log(2);
+console.log(2);
+console.log(2);
+console.log(2);
+console.log(2);
+console.log(2);
+console.log(2);
+
 // Callstack last in first out
 // Callback que first in first out
 
