@@ -65,6 +65,10 @@ function three() {
   }, 1);
 }
 
+function neka() {
+  console.log("imas, nemas");
+}
+
 // Callstack last in first out
 // Callback que first in first out
 
