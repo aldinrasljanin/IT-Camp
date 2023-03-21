@@ -13,7 +13,10 @@
 //   console.log(1);
 // }
 
-
+// function numTwo() {
+//   console.log(2);
+//   numOne();
+// }
 
 // Callstack last in first out
 // Callback que first in first out
