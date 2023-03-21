@@ -9,6 +9,9 @@
 // console.log(9);
 // console.log(10);
 
+// Callstack last in first out
+// Callback que first in first out
+
 // function numOne() {
 //   console.log(1);
 // }
@@ -86,8 +89,5 @@ console.log(2);
 console.log(2);
 console.log(2);
 console.log(2);
-
-// Callstack last in first out
-// Callback que first in first out
 
 // promise za sledeci cas
