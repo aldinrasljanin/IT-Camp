@@ -49,6 +49,10 @@ function time() {
   }, 1000);
 }
 
+function one() {
+  console.log(1);
+}
+
 // Callstack last in first out
 // Callback que first in first out
 
