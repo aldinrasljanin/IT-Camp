@@ -59,6 +59,12 @@ function two() {
   }, 2);
 }
 
+function three() {
+  setTimeout(() => {
+    console.log(3);
+  }, 1);
+}
+
 // Callstack last in first out
 // Callback que first in first out
 
