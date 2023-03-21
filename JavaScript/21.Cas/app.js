@@ -40,6 +40,9 @@
 //   const myName = "aldin";
 //   sayMyName(myName);
 // };
+
+// nekaFunkcija();
+
 // Callstack last in first out
 // Callback que first in first out
 
