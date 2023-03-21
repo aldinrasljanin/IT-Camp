@@ -8,3 +8,4 @@
 // console.log(8);
 // console.log(9);
 // console.log(10);
+// poslednja koja udje u callstack prva izlazi
