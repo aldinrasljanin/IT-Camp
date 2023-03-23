@@ -96,16 +96,16 @@
 /// Promise ///
 // Vraca dva izbora uspesno i neuspesno
 
-const obecanje = new Promise((resolve, reject) => {
-  // resolve(2);
-  // reject("neuspesno");
-  let a = 1 + 2;
-  if (a === 3) {
-    resolve(a);
-  } else {
-    reject("Zbir je netacan");
-  }
-});
+// const obecanje = new Promise((resolve, reject) => {
+//   // resolve(2);
+//   // reject("neuspesno");
+//   let a = 1 + 2;
+//   if (a === 3) {
+//     resolve(a);
+//   } else {
+//     reject("Zbir je netacan");
+//   }
+// });
 
 // obecanje
 //   .then((res) => {
