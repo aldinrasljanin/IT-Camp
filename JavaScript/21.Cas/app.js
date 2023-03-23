@@ -116,3 +116,6 @@ const obecanje = new Promise((resolve, reject) => {
 //     // res + 10;
 //     return a;
 //   })
+//   .then((el) => console.log(el))
+//   .catch((el) => console.log(el))
+//   .finally(() => console.log("konacan rezultat"));
