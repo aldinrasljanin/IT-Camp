@@ -94,3 +94,5 @@
 // console.log(2);
 
 /// Promise ///
+
+const promise = new Promise();
