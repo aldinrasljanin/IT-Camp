@@ -134,3 +134,5 @@ const obecanje = new Promise((resolve, reject) => {
 // Promise.all([prvi, drugi, treci])
 //   .then((el) => console.log(el))
 //   .catch((el) => console.log(el));
+
+// fetch("httpsppppppppppp://dummyjson.com/products")
