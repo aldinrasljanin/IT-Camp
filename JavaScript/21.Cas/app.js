@@ -137,3 +137,6 @@ const obecanje = new Promise((resolve, reject) => {
 
 // fetch("httpsppppppppppp://dummyjson.com/products")
 //   .then((res) => res.json())
+//   .then((el) => (a = el))
+//   .then(() => console.log(a))
+//   .catch((error) => console.log("Greska " + error));
