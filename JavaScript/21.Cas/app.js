@@ -119,3 +119,8 @@ const obecanje = new Promise((resolve, reject) => {
 //   .then((el) => console.log(el))
 //   .catch((el) => console.log(el))
 //   .finally(() => console.log("konacan rezultat"));
+
+// const prvi = new Promise((resolve, reject) => {
+//   // resolve("prosao prvi");
+//   reject("ne prolazi");
+// });
