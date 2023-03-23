@@ -151,3 +151,9 @@ function getData() {
 
   return a;
 }
+
+const data = getData();
+// console.log(data);
+// if (data) {
+//   console.log(data, "aa");
+// }
