@@ -95,4 +95,4 @@
 
 /// Promise ///
 
-const promise = new Promise();
+const promise = new Promise((resolve, reject) => {});
