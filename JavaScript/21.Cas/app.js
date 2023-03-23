@@ -124,3 +124,6 @@ const obecanje = new Promise((resolve, reject) => {
 //   // resolve("prosao prvi");
 //   reject("ne prolazi");
 // });
+// const drugi = new Promise((resolve, reject) => {
+//   resolve("prosao drugi");
+// });
