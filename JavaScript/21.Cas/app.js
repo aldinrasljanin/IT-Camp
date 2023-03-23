@@ -130,3 +130,7 @@ const obecanje = new Promise((resolve, reject) => {
 // const treci = new Promise((resolve, reject) => {
 //   resolve("prosao treci");
 // });
+
+// Promise.all([prvi, drugi, treci])
+//   .then((el) => console.log(el))
+//   .catch((el) => console.log(el));
