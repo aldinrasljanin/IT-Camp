@@ -113,7 +113,7 @@ const obecanje = new Promise((resolve, reject) => {
 //     for (let i = 0; i < res; i++) {
 //       a += 2;
 //     }
-//     // res + 10;
+// res + 10;
 //     return a;
 //   })
 //   .then((el) => console.log(el))
