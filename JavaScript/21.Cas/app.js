@@ -106,3 +106,13 @@ const obecanje = new Promise((resolve, reject) => {
     reject("Zbir je netacan");
   }
 });
+
+// obecanje
+//   .then((res) => {
+//     let a = 0;
+//     for (let i = 0; i < res; i++) {
+//       a += 2;
+//     }
+//     // res + 10;
+//     return a;
+//   })
