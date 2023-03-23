@@ -94,6 +94,6 @@
 // console.log(2);
 
 /// Promise ///
-// Vraca dva izbora resolve i reject
+// Vraca dva izbora uspesno i neuspesno
 
 const promise = new Promise((resolve, reject) => {});
