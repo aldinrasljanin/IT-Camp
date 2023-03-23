@@ -140,3 +140,14 @@ const obecanje = new Promise((resolve, reject) => {
 //   .then((el) => (a = el))
 //   .then(() => console.log(a))
 //   .catch((error) => console.log("Greska " + error));
+
+function getData() {
+  let a;
+  fetch("https://dummyjson.com/products")
+    .then((res) => res.json())
+    .then((el) => (a = el))
+    .then(() => console.log(a.products[0].images))
+    .catch((error) => console.log("Greska " + error));
+
+  return a;
+}
