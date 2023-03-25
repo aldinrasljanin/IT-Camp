@@ -199,3 +199,4 @@
 // getData();
 // / ? query params
 // dummyjson
+// free api quotes/ rapid api
