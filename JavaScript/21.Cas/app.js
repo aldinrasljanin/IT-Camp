@@ -182,18 +182,18 @@
 // } catch (error) {
 //   console.log("Ovo je error", error);
 // }
-async function getData() {
-  let a = await fetch("https://jsonplaceholder.typicode.com/posts");
-  let response = await a.json();
-  let data = response.slice(0, 20);
-  let evenIds = data.filter((el) => el.id % 2 === 0);
-  let practice = evenIds.map((el) => {
-    return {
-      ...el,
-      id: el.id * 3 - 10,
-    };
-  });
-  console.log(evenIds);
-  console.log(practice);
-}
-getData();
+// async function getData() {
+//   let a = await fetch("https://jsonplaceholder.typicode.com/posts");
+//   let response = await a.json();
+//   let data = response.slice(0, 20);
+//   let evenIds = data.filter((el) => el.id % 2 === 0);
+//   let practice = evenIds.map((el) => {
+//     return {
+//       ...el,
+//       id: el.id * 3 - 10,
+//     };
+//   });
+//   console.log(evenIds);
+//   console.log(practice);
+// }
+// getData();
