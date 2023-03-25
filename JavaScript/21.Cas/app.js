@@ -197,3 +197,4 @@
 //   console.log(practice);
 // }
 // getData();
+// / ? query params
