@@ -131,28 +131,30 @@
 //   resolve("prosao treci");
 // });
 
+// Promise all
 // Promise.all([prvi, drugi, treci])
 //   .then((el) => console.log(el))
 //   .catch((el) => console.log(el));
 
+/// Data Fetch ///
 // fetch("httpsppppppppppp://dummyjson.com/products")
 //   .then((res) => res.json())
 //   .then((el) => (a = el))
 //   .then(() => console.log(a))
 //   .catch((error) => console.log("Greska " + error));
 
-function getData() {
-  let a;
-  fetch("https://dummyjson.com/products")
-    .then((res) => res.json())
-    .then((el) => (a = el))
-    .then(() => console.log(a.products[0].images))
-    .catch((error) => console.log("Greska " + error));
+// function getData() {
+//   let a;
+//   fetch("https://dummyjson.com/products")
+//     .then((res) => res.json())
+//     .then((el) => (a = el))
+//     .then(() => console.log(a.products[0].images))
+//     .catch((error) => console.log("Greska " + error));
 
-  return a;
-}
+//   return a;
+// }
 
-const data = getData();
+// const data = getData();
 // console.log(data);
 // if (data) {
 //   console.log(data, "aa");
