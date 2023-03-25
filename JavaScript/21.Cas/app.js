@@ -178,8 +178,10 @@
 // asyncCall();
 
 async function getData() {
-  fetch("https://jsonplaceholder.typicode.com/posts")
-    .then((response) => response.json())
-    .then((jsonFormat) => (a = jsonFormat.slice(0, 10)));
+  let a = await fetch("https://jsonplaceholder.typicode.com/posts");
+  let response = await a.json();
+  console.log(response);
+  // .then((response) => response.json())
+  // .then((jsonFormat) => (a = jsonFormat.slice(0, 10)));
 }
-getData();
+// getData();
