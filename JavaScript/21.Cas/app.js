@@ -161,8 +161,8 @@
 // }
 
 function getData() {
-  fetch("https://jsonplaceholder.typicode.com/todos/1")
+  fetch("https://jsonplaceholder.typicode.com/posts")
     .then((response) => response.json())
-    .then((jsonFormat) => console.log(jsonFormat));
+    .then((jsonFormat) => (a = jsonFormat.slice(0, 10)));
 }
 getData();
