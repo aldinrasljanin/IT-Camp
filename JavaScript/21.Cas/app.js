@@ -177,16 +177,14 @@
 
 // asyncCall();
 
+// try {
+//   getData();
+// } catch (error) {
+//   console.log("Ovo je error", error);
+// }
 async function getData() {
   let a = await fetch("https://jsonplaceholder.typicode.com/posts");
   let response = await a.json();
   console.log(response);
-  // .then((response) => response.json())
-  // .then((jsonFormat) => (a = jsonFormat.slice(0, 10)));
 }
-// getData();
-try {
-  getData();
-} catch (error) {
-  console.log("Ovo je error", error);
-}
+getData();
