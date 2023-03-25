@@ -131,7 +131,7 @@
 //   resolve("prosao treci");
 // });
 
-// Promise all
+/// Promise all ///
 // Promise.all([prvi, drugi, treci])
 //   .then((el) => console.log(el))
 //   .catch((el) => console.log(el));
