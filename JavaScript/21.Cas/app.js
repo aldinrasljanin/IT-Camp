@@ -186,5 +186,7 @@ async function getData() {
   let a = await fetch("https://jsonplaceholder.typicode.com/posts");
   let response = await a.json();
   let data = response.slice(0, 20);
+  let evenIds = data.filter((el) => el.id % 2 === 0);
+  console.log(evenIds);
 }
 getData();
