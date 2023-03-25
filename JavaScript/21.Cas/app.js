@@ -198,5 +198,5 @@
 // }
 // getData();
 // / ? query params
-// dummyjson
+// dummyjson, json placeholder
 // free api quotes/ rapid api
