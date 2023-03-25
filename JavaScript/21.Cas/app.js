@@ -161,8 +161,8 @@
 // }
 
 function getData() {
-  fetch("https://jsonplaceholder.typicode.com/todos/1").then((response) =>
-    console.log(response)
-  );
+  fetch("https://jsonplaceholder.typicode.com/todos/1")
+    .then((response) => response.json())
+    .then((jsonFormat) => console.log(jsonFormat));
 }
 getData();
