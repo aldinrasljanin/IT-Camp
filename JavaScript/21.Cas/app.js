@@ -160,7 +160,24 @@
 //   console.log(data, "aa");
 // }
 
-function getData() {
+// function resolveAfter2Seconds() {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve("resolved");
+//     }, 2000);
+//   });
+// }
+
+// async function asyncCall() {
+//   console.log("calling");
+//   const result = await resolveAfter2Seconds();
+//   console.log(result);
+//   // Expected output: "resolved"
+// }
+
+// asyncCall();
+
+async function getData() {
   fetch("https://jsonplaceholder.typicode.com/posts")
     .then((response) => response.json())
     .then((jsonFormat) => (a = jsonFormat.slice(0, 10)));
