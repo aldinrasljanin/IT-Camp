@@ -185,6 +185,6 @@
 async function getData() {
   let a = await fetch("https://jsonplaceholder.typicode.com/posts");
   let response = await a.json();
-  console.log(response);
+  let data = response.slice(0, 20);
 }
 getData();
