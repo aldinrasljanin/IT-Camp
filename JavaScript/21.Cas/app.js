@@ -185,3 +185,8 @@ async function getData() {
   // .then((jsonFormat) => (a = jsonFormat.slice(0, 10)));
 }
 // getData();
+try {
+  getData();
+} catch (error) {
+  console.log("Ovo je error", error);
+}
