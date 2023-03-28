@@ -15,13 +15,14 @@ let getData = () => {
     });
 };
 
-dataButton.addEventListener("click", () => getData());
+// Exercise //
+// dataButton.addEventListener("click", () => getData());
 
-let string = "Danas je lep dan";
-let reversedString = "";
+// let string = "Danas je lep dan";
+// let reversedString = "";
 
-for (let i = string.length - 1; i >= 0; i--) {
-  reversedString += string[i];
-}
+// for (let i = string.length - 1; i >= 0; i--) {
+//   reversedString += string[i];
+// }
 
-console.log(reversedString);
+// console.log(reversedString);
