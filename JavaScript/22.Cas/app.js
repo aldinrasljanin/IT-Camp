@@ -15,7 +15,7 @@ let getData = () => {
     });
 };
 
-// Exercise //
+// 1.Exercise //
 // dataButton.addEventListener("click", () => getData());
 
 // let string = "Danas je lep dan";
