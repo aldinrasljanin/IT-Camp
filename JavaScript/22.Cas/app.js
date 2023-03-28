@@ -16,3 +16,12 @@ let getData = () => {
 };
 
 dataButton.addEventListener("click", () => getData());
+
+let string = "Danas je lep dan";
+let reversedString = "";
+
+for (let i = string.length - 1; i >= 0; i--) {
+  reversedString += string[i];
+}
+
+console.log(reversedString);
