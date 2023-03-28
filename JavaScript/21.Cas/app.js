@@ -200,3 +200,5 @@
 // / ? query params
 // dummyjson, json placeholder
 // free api quotes/ rapid api
+// await sluzi za cekanje neke funkcije
+// petlje,nizovi,objekti i fecanje podataka
