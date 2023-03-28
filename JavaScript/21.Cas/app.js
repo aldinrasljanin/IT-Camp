@@ -136,7 +136,7 @@
 //   .then((el) => console.log(el))
 //   .catch((el) => console.log(el));
 
-// / Data Fetch ///
+/// Data Fetch ///
 // fetch("httpsppppppppppp://dummyjson.com/products")
 //   .then((res) => res.json())
 //   .then((el) => (a = el))
