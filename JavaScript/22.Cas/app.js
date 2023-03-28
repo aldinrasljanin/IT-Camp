@@ -1,6 +1,6 @@
 const postsDiv = document.getElementById("posts");
 const dataButton = document.getElementById("buttonId");
-// console.log("postsDiv");
+// console.log(postsDiv);
 let getData = () => {
   fetch("https://jsonplaceholder.typicode.com/posts")
     .then((el) => el.json())
