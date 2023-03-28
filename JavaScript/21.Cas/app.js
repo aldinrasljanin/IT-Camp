@@ -93,7 +93,7 @@
 // console.log(2);
 // console.log(2);
 
-// / Promise ///
+/// Promise ///
 // Vraca dva izbora uspesno i neuspesno
 
 // const obecanje = new Promise((resolve, reject) => {
