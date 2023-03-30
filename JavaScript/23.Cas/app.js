@@ -18,8 +18,10 @@ getAveragePrice();
 async function getDiscount() {
   const response = await fetch("https://dummyjson.com/carts/1");
   const data = await response.json();
-  const discounts = data.products.map((obj) => obj.discountPercentage);
-  const discount = discounts.filter((obj) => obj > 11.3);
-  console.log(discount);
+  const discounts = data.products.filter(
+    (obj) => obj.discountPercentage > 11.3
+  );
+  //   const discount = discounts.filter((obj) => obj > 11.3);
+  console.log(discounts);
 }
 getDiscount();
