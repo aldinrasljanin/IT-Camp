@@ -21,7 +21,6 @@ async function getDiscount() {
   const discounts = data.products.filter(
     (obj) => obj.discountPercentage > 11.3
   );
-  //   const discount = discounts.filter((obj) => obj > 11.3);
   console.log(discounts);
 }
 getDiscount();
