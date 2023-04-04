@@ -5,17 +5,21 @@
 // Ukoliko je broj deljiv sa 3 - ispisati "BUZZ"
 // Ukoliko je broj deljiv sa 3 - ispisati "FIZZBUZZ";
 
-for (let i = 0; i <= 100; i++) {
-  if (i % 3 === 0 && i % 5 === 0) {
-    console.log("FIZZBUZZ");
-  } else if (i % 3 === 0) {
-    console.log("FIZZ");
-  } else if (i % 5 === 0) {
-    console.log("BUZZ");
-  } else {
-    console.log(i);
+const challange = () => {
+  for (let i = 0; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("FIZZBUZZ");
+    } else if (i % 3 === 0) {
+      console.log("FIZZ");
+    } else if (i % 5 === 0) {
+      console.log("BUZZ");
+    } else {
+      console.log(i);
+    }
   }
-}
+};
+challange();
+
 // 2.Zadatak
 // Iz niza brojeva, izdvojiti sve parne brojeve, i duplirati ih,
 
