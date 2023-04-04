@@ -1,3 +1,4 @@
+// 1.Zadatak
 // FIZZBUZZ challange
 // Ispisati brojeve od 0 do 100;
 // Ukoliko je broj deljiv sa 3 - ispisati "FIZZ"
