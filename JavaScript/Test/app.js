@@ -24,11 +24,11 @@ challange();
 // Iz niza brojeva, izdvojiti sve parne brojeve, i duplirati ih,
 
 const array = [3, 5, 8, 9, 10, 33, 56, 24, 93, 67, 34];
-const loop = () => {
+const numbers = () => {
   const evenArray = array.filter((num) => num % 2 === 0).map((num) => num * 2);
   console.log(evenArray);
 };
-loop();
+numbers();
 
 // 3.Zadatak
 // Preuzmi podatke sa api-ja, i izdvojiti sve usere sa parnim id-jem;
