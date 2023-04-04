@@ -27,9 +27,12 @@ console.log(evenArray);
 // Preuzmi podatke sa api-ja, i izdvojiti sve usere sa parnim id-jem;
 // API URL : https://jsonplaceholder.typecode.com/posts
 
-fetch("https://jsonplaceholder.typicode.com/posts")
-  .then((response) => response.json())
-  .then((data) => {
-    const userEvenId = data.filter((user) => user.id % 2 === 0);
-    console.log(userEvenId);
-  });
+const getData = () => {
+  fetch("https://jsonplaceholder.typicode.com/posts")
+    .then((response) => response.json())
+    .then((data) => {
+      const userEvenId = data.filter((user) => user.id % 2 === 0);
+      console.log(userEvenId);
+    });
+};
+getData();
