@@ -16,7 +16,7 @@ for (let i = 0; i <= 100; i++) {
     console.log(i);
   }
 }
-//2.Zadatak
+// 2.Zadatak
 // Iz niza brojeva, izdvojiti sve parne brojeve, i duplirati ih,
 
 const array = [3, 5, 8, 9, 10, 33, 56, 24, 93, 67, 34];
