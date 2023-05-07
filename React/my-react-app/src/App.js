@@ -2,25 +2,55 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Classnames from "./App.module.css";
+import getMyName from "./getMyName.js";
+import { gender, getMyAge } from "./getProfileInfo";
+import MyName from "./NameComponent";
+import LogoComponent from "./components/LogoComponent";
+import NameText from "./components/NameText";
+
+class App extends React.Component {
+  state = {
+    myAge: getMyAge(1995),
+    city: "Novi Pazar",
+    name: "Aldin",
+  };
+
+  render() {
+    console.log("render", this.state);
+    return (
+      <div className={[Classnames.App, Classnames.Nesto]}>
+        <header className="App-header">
+          <LogoComponent
+            logo={logo}
+            name={this.state.name}
+            date={new Date()}
+          ></LogoComponent>
+          <NameText name={"Kenan"} />
+          <p>I am {this.state.myAge} years old</p>
+          <button
+            onClick={() => {
+              // myAge = myAge + 1;
+              this.setState({ myAge: this.state.myAge + 1 });
+              // this.setState((prevState) => {
+              //     return {
+              //         ...prevState,
+              //         myAge: this.state.myAge + 1,
+              //     };
+              // });
+            }}
+            style={{
+              height: 50,
+              width: 300,
+              fontSize: 30,
+            }}
+          >
+            Make me older
+          </button>
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;
