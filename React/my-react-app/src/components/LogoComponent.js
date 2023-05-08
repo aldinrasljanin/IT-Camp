@@ -1,7 +1,7 @@
 import React from "react";
 
 class LogoComponent extends React.Component {
-  state = { name: "Muhamed" };
+  state = { name: "Aldin" };
 
   render() {
     console.log("props", this.props);
