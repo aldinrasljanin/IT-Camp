@@ -5,13 +5,16 @@ class App extends React.Component {
     return <div className="App"></div>;
   }
 }
-<div className="app"></div>;
-<div className="scores-container">
-  <div className="score-card">
-    <h1>{}</h1>
-    <p>Home</p>
-    <button>Goal!</button>
+<div className="app">
+  <div className="scores-container">
+    <div className="score-card">
+      <h1>{this.state.HomeScore}</h1>
+      <p>Home</p>
+      <button>Goal!</button>
+    </div>
+    ;
   </div>
   ;
 </div>;
+
 export default App;
