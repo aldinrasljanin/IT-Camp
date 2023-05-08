@@ -1,5 +1,5 @@
 import React from "react";
-import getMyName from ".getMyName";
+import getMyName from "./getMyName";
 
 const NameComponent = () => {
   return <div>{getMyName()}</div>;

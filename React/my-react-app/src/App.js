@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import Classnames from "./App.module.css";
-import getMyName from ".getMyName";
+import getMyName from "./getMyName";
 import { gender, getMyAge } from "./getProfileInfo";
 import MyName from "./NameComponent";
 import LogoComponent from "./components/LogoComponent";
