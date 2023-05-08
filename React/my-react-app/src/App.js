@@ -10,7 +10,7 @@ import NameText from "./components/NameText";
 
 class App extends React.Component {
   state = {
-    myAge: getMyAge(1995),
+    myAge: getMyAge(2005),
     city: "Novi Pazar",
     name: "Aldin",
   };
