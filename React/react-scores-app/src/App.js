@@ -4,7 +4,7 @@ import ScoreCard from "./components/ScoreCard";
 
 // const [state,setState] = useState({
 //   homeScore: 0,
-//   guestScore: 0,
+//   awayScore: 0,
 // })
 
 class App extends React.Component {
