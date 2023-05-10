@@ -24,11 +24,11 @@ class App extends React.Component {
     if (this.state.gameover === false) {
       // igra traje
       if (this.state.homeScore === 5) {
-        console.log("Home is winner");
+        alert("Home is winner");
         this.setState({ gameover: true }); // prekini igru
       }
       if (this.state.awayScore === 5) {
-        console.log("Guest is winner");
+        alert("Guest is winner");
         this.setState({ gameover: true });
       }
     }
