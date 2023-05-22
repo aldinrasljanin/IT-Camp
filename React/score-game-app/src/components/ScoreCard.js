@@ -14,6 +14,20 @@ class ScoreCard extends React.Component {
         >
           Goal!
         </button>
+        <button
+          onClick={(e) => {
+            this.props.yellow();
+          }}
+        >
+          Yellow!
+        </button>
+        <button
+          onClick={(e) => {
+            this.props.red();
+          }}
+        >
+          Red!
+        </button>
       </div>
     );
   }
