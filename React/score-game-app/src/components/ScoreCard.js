@@ -16,17 +16,17 @@ class ScoreCard extends React.Component {
         </button>
         <button
           onClick={(e) => {
-            this.props.yellow();
+            this.props.yellowCard();
           }}
         >
-          Yellow!
+          Yellow Card
         </button>
         <button
           onClick={(e) => {
-            this.props.red();
+            this.props.redCard();
           }}
         >
-          Red!
+          Red Card
         </button>
       </div>
     );
