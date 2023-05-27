@@ -13,7 +13,7 @@ const Post = (props) => {
   return (
     <div className="post">
       <div>
-        <img className="post-img" src={props.post.imageUrl} />
+        <img className="post-img" src={props.post.imageUrl} alt="nature" />
       </div>
       <div className="post-buttons">
         <button
@@ -22,7 +22,7 @@ const Post = (props) => {
           }}
           style={{ paddingRight: "10px", paddingLeft: "10px" }}
         >
-          <img src={likeButtonImg} width="10px" />
+          <img src={likeButtonImg} width="10px" alt="nature2" />
         </button>
         <button
           onClick={() => {
