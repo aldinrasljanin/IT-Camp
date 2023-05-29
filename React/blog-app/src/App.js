@@ -1,9 +1,17 @@
-import logo from "./logo.svg";
-import Blogs from "./pages/Blogs";
-import "./App.css";
+// import logo from "./logo.svg";
+// import React from "react";
+// import Blogs from "./pages/Blogs";
+// import BlogDetails from "./pages/BlogDetails";
+// import "./App.css";
+// import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
-function App() {
-  return <Blogs />;
-}
+// const router = createBrowserRouter({
+//   path: "/",
+//   element: <Blog />,
+// });
 
-export default App;
+// function App() {
+//   return <RouterProvider router={router} />;
+// }
+
+// export default App;
