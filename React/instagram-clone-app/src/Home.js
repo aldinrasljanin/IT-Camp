@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import mydata from "./data.json";
 import Post from "./components/Post";
