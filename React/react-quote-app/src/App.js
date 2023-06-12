@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import AllQuotes from "./pages/AllQuotes/AllQuotes";
