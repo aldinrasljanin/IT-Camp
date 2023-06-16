@@ -1,5 +1,5 @@
 import React from "react";
-import "./register.css";
+import "./Register.css";
 import { Formik } from "formik";
 
 const initialValues = {

@@ -3,7 +3,7 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import AllQuotes from "./pages/AllQuotes/AllQuotes";
 import QuoteDetails from "./pages/QuoteDetails/QuoteDetails";
 import Login from "./pages/Login/Login";
-import Register from "./pages/Register/Register";
+import Register from "./pages/Register/register";
 import AddQuote from "./pages/AddQuote/AddQuote";
 import EditQuote from "./pages/EditQuote/EditQuote";
 
