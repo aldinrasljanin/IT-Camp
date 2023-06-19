@@ -3,16 +3,19 @@ import "./Login.css";
 import { Formik } from "formik";
 import * as yup from "yup";
 import { useNavigate } from "react-router-dom";
+import jwtDecode from "jwt-decode";
+import { useDispatch } from "react-redux";
+import { authSlice } from "../../store/authSlice";
 
 const loginSchema = yup.object({
   email: yup
     .string()
     .required("Email je obavezno polje, unesite email")
-    // .matches(
-    //   /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!.,#]).+$/i,
-    //   "Email moze da sadrzi samo slova, brojeve i tacku"
-    // )
     .email("Email format nije dobar"),
+  // .matches(
+  //   /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!.,#]).+$/i,
+  //   "Email moze da sadrzi samo slova, brojeve i tacku"
+  // )
   password: yup
     .string()
     .required("Sifra je obavezno polje, unesite sifru")
@@ -26,6 +29,7 @@ const loginSchema = yup.object({
 
 const Login = () => {
   const navigate = useNavigate();
+  const dispach = useDispatch();
 
   const submitForm = (values) => {
     fetch("https://js-course-server.onrender.com/user/login", {
@@ -42,6 +46,9 @@ const Login = () => {
         }
 
         if (data.token) {
+          const decoded = jwtDecode(data.token);
+          dispach(authSlice.actions.setData(decoded));
+          localStorage.setItem("authToken", data.token);
           navigate("/");
         }
       })
@@ -61,7 +68,7 @@ const Login = () => {
       >
         {({
           values, // formikov state => { email: "", password: "" }
-          errors, // errors = { email: 'Neispravan email' }
+          errors, // errors = { email: 'Neispravan email', password: 'Password is required field' }
           touched, // touched = { email: true }
           handleChange,
           handleBlur,
