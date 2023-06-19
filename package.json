@@ -1,8 +1,10 @@
 {
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
     "formic": "^0.0.10",
     "formik": "^2.4.1",
     "jwt-decode": "^3.1.2",
+    "react-redux": "^8.1.0",
     "react-router": "^6.11.2",
     "react-router-dom": "^6.11.2",
     "yup": "^1.2.0"
